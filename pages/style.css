@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Swoi";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("/fonts/20011.ttf") ;
+}
+:root {
+  --dl-color-gray-2: #320303ff;
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #ead8dfff;
+  --dl-color-gray-white: #fff2dbff;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-gray-white1: #FFFFFF;
+  --dl-color-gray-white2: #FFFFFF;
+  --dl-color-primary-100: #000405ff;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-color-custom-accent1: #5D576B;
+  --dl-color-primary-rasbav: #ffe4e1ff;
+  --dl-color-primary-selen1: #006400ff;
+  --dl-color-primary-selen2: #556b2fff;
+  --dl-color-primary-selen3: #808000ff;
+  --dl-color-primary-selen4: #32cd32ff;
+  --dl-color-primary-semla2: #8b4513ff;
+  --dl-color-primary-semla3: #201812ff;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-custom-primary1: #ED6A5A;
+  --dl-color-primary-semlia1: #b8860bff;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-custom-secondary1: #E6EBE0;
+  --dl-color-custom-neutral-dark: #000000;
+  --dl-color-custom-neutral-light: #FFFFFF;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.input {
+  cursor: auto;
+  padding: 0.5rem 1rem;
+}
+.textarea {
+  cursor: auto;
+  padding: 0.5rem;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.logo {
+  font-size: 2em;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.overline {
+  font-size: 12px;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.heading2 {
+  font-size: 35px;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 150%;
+}
+.bodySmall {
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+}
+.heading3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 150%;
+}
+.bodyLarge {
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+}
+.Head {
+  font-size: 32px;
+  font-family: "Tahoma";
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: none;
+  text-decoration: none;
+}
+.heading1 {
+  font-size: 48px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 150%;
+}
