@@ -26,7 +26,7 @@ const Futer = (props) => {
             <div className="futer-firstcontact">
               <span className="futer-firstphonenum">{props.phoneNum}</span>
               <a
-                href="https://telegram.im/@p_miita"
+                href="viber://chat?number=%2B375447022830"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="futer-link"
@@ -76,7 +76,7 @@ const Futer = (props) => {
               <span className="futer-secphonenum">+375 (29) 619-43-22</span>
               <div className="futer-contacticns">
                 <a
-                  href="https://telegram.im/@p_miita"
+                  href="viber://chat?number=%2B375445871336"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="futer-link1"

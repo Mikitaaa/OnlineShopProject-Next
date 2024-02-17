@@ -65,7 +65,7 @@ const Contacts = (props) => {
                 </div>
               </a>
               <a
-                href="http://tinyurl.com/yc5kxuyw"
+                href="viber://chat?number=%2B375445871336"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link1"
@@ -83,7 +83,7 @@ const Contacts = (props) => {
                 </div>
               </a>
               <a
-                href="http://tinyurl.com/559djed5"
+                href="viber://chat?number=%2B375447022830"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link2"
