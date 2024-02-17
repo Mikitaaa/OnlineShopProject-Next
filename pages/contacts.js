@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import Header1 from '../components/header1'
 import Futer from '../components/futer'
+import Map from '../components/map'
 
 const Contacts = (props) => {
   return (
@@ -135,11 +136,7 @@ const Contacts = (props) => {
             </div>
           </div>
           <div className="contacts-mapconteiner">
-            <img
-              alt="image"
-              src="/Delivery/map-1500w.jpg"
-              className="contacts-image2"
-            />
+            <Map />
           </div>
         </div>
         <Futer rootClassName="futer-root-class-name14"></Futer>
