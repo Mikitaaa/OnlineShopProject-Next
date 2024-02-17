@@ -108,12 +108,12 @@ const Contacts = (props) => {
             </div>
             <div className="contacts-mailtext">
               <a
-                href="https://telegram.im/@p_miita"
+                href="mailto:infogroundshop@gmail.com"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link3"
               >
-                ground_shop@gmail.com
+                infogroundshop@gmail.com
               </a>
             </div>
           </div>
