@@ -584,71 +584,90 @@ const Futer = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .futer-container {
+              flex-direction: column;
+            }
+            .futer-policy {
+              width: 100%;
+              align-self: flex-start;
+            }
             .futer-name-logo {
               padding: var(--dl-space-space-halfunit);
             }
             .futer-text {
-              font-size: 14px;
+              font-size: 23px;
             }
             .futer-image {
-              width: 20px;
-              height: 20px;
+              width: 35px;
+              height: 35px;
             }
             .futer-text1 {
-              font-size: 11px;
+              font-size: 18px;
             }
             .futer-text2 {
-              font-size: 11px;
+              font-size: 18px;
             }
             .futer-contacts {
-              padding-left: var(--dl-space-space-halfunit);
-              padding-right: var(--dl-space-space-halfunit);
+              width: 100%;
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
             }
             .futer-contactshead {
+              align-self: flex-start;
               padding-top: var(--dl-space-space-halfunit);
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-halfunit);
             }
             .futer-headtext {
-              font-size: 14px;
+              font-size: 23px;
+              text-align: left;
+            }
+            .futer-contacts1 {
+              align-self: flex-start;
             }
             .futer-firstphonenum {
-              font-size: 11px;
+              font-size: 18px;
             }
             .futer-vibericn {
-              width: 18px;
-              height: 18px;
+              width: 25px;
+              height: 25px;
               margin-left: 5px;
             }
             .futer-secphonenum {
-              font-size: 11px;
+              font-size: 18px;
             }
             .futer-vibericn1 {
-              width: 18px;
-              height: 18px;
+              width: 25px;
+              height: 25px;
               margin-left: 5px;
             }
             .futer-telegramicn {
-              width: 18px;
-              height: 18px;
+              width: 25px;
+              height: 25px;
               margin-left: 5px;
             }
             .futer-email {
-              font-size: 11px;
+              font-size: 18px;
             }
             .futer-mailicn {
-              width: 18px;
-              height: 18px;
+              width: 25px;
+              height: 25px;
+            }
+            .futer-delivery {
+              width: 100%;
             }
             .futer-deliveryhead {
               padding: var(--dl-space-space-halfunit);
+              align-self: flex-start;
             }
             .futer-deliveryhead1 {
-              font-size: 14px;
+              font-size: 23px;
             }
             .futer-addr {
-              font-size: 11px;
+              font-size: 18px;
+              align-self: flex-start;
+              text-align: left;
               padding-right: var(--dl-space-space-halfunit);
             }
             .futer-root-class-name6 {
@@ -683,90 +702,15 @@ const Futer = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .futer-policy {
-              width: 30%;
-              padding: var(--dl-space-space-halfunit);
-            }
-            .futer-text {
-              font-size: 9px;
-            }
-            .futer-image {
-              width: 12px;
-              height: 12px;
-              margin-left: 3px;
-            }
-            .futer-text1 {
-              font-size: 8px;
-            }
-            .futer-text2 {
-              font-size: 8px;
-            }
-            .futer-contacts {
-              padding: var(--dl-space-space-halfunit);
-            }
             .futer-contactshead {
               justify-content: flex-end;
-            }
-            .futer-headtext {
-              font-size: 9;
-            }
-            .futer-contacts1 {
-              width: 125px;
-              align-items: flex-start;
-              justify-content: center;
             }
             .futer-firstcontact {
               padding: var(--dl-space-space-halfunit);
             }
-            .futer-firstphonenum {
-              font-size: 8px;
-            }
-            .futer-vibericn {
-              width: 13px;
-              height: 13px;
-              margin-left: 2px;
-            }
             .futer-secondcontact {
               padding-top: 0px;
               padding-bottom: 0px;
-            }
-            .futer-secphonenum {
-              font-size: 8px;
-            }
-            .futer-vibericn1 {
-              width: 13px;
-              height: 13px;
-              margin-left: 2px;
-            }
-            .futer-telegramicn {
-              width: 13px;
-              height: 13px;
-              margin-left: 2px;
-            }
-            .futer-email {
-              font-size: 8px;
-            }
-            .futer-mailicn {
-              width: 13px;
-              height: 13px;
-            }
-            .futer-delivery {
-              width: 30%;
-              align-items: center;
-              padding-top: var(--dl-space-space-halfunit);
-              padding-left: 0px;
-              padding-right: var(--dl-space-space-halfunit);
-              padding-bottom: 0px;
-            }
-            .futer-deliveryhead {
-              align-self: flex-end;
-            }
-            .futer-deliveryhead1 {
-              font-size: 9px;
-            }
-            .futer-addr {
-              font-size: 8px;
-              text-align: right;
             }
             .futer-root-class-name {
               flex: 1;
