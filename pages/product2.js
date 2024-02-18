@@ -1,19 +1,30 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import useSWR from 'swr';
 
 import Header1 from '../components/header1'
 import SliderSize from '../components/slider-size'
 import Futer from '../components/futer'
 
 const Product2 = (props) => {
-  const [price, setPrice] = useState('21,40 руб.');
+  const { data, error } = useSWR('api/prices', (url) =>
+    fetch(url).then((res) => res.json()),
+  );
+
+  const [price, setPrice] = useState('');
+
+    useEffect(() => {
+        if (data) {
+            setPrice(data.prod_2_100l + ' руб.');
+        }
+    }, [data]);
 
   const handleButtonChange = (value) => {
     if (value === '100л') {
-      setPrice('21,40 руб.');
+      setPrice(data.prod_2_100l+' руб.');
     } else{
-      setPrice('41 руб.');
+      setPrice(data.prod_2_250l+' руб.');
     }
   };
 

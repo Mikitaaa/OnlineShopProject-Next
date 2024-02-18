@@ -1,22 +1,32 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import useSWR from 'swr';
 
 import Header1 from '../components/header1'
 import SliderSize from '../components/slider-size'
 import Futer from '../components/futer'
 
 const Product6 = (props) => {
+  const { data, error } = useSWR('api/prices', (url) =>
+  fetch(url).then((res) => res.json()),
+);
 
-  const [price, setPrice] = useState('30,80 руб.');
+const [price, setPrice] = useState('');
 
-  const handleButtonChange = (value) => {
-    if (value === '100л') {
-      setPrice('30,80 руб.');
-    } else{
-      setPrice('53 руб.');
-    }
-  };
+  useEffect(() => {
+      if (data) {
+          setPrice(data.prod_6_100l + ' руб.');
+      }
+  }, [data]);
+
+const handleButtonChange = (value) => {
+  if (value === '100л') {
+    setPrice(data.prod_6_100l+' руб.');
+  } else{
+    setPrice(data.prod_6_250l+' руб.');
+  }
+};
 
   let pairs = [
     {first: '../Products/Products_100/Product_6/traven-gryadki-11.jpg', second: '../Products/Products_250/peat_1.1_250.jpg'},
