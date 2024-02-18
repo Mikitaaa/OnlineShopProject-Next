@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -7,6 +7,16 @@ import SliderSize from '../components/slider-size'
 import Futer from '../components/futer'
 
 const Product3 = (props) => {
+
+  const [price, setPrice] = useState('10,30 руб.');
+
+  const handleButtonChange = (value) => {
+    if (value === '100л') {
+      setPrice('10,30 руб.');
+    } else{
+      setPrice('28 руб.');
+    }
+  };
 
   let pairs = [
     {first: '../Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg', second: '../Products/Products_250/peat_1.1_250.jpg'},
@@ -28,7 +38,7 @@ const Product3 = (props) => {
           </h1>
         </div>
         <div className="product3-main-info">
-        <SliderSize imagePaths = {pairs}></SliderSize>
+        <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product3-compound">
             <h1 className="product3-head-compound">Состав:</h1>
             <span className="product3-compound1">
@@ -36,7 +46,7 @@ const Product3 = (props) => {
               <br></br>
               <span>- рН 2,8-4,0</span>
             </span>
-            <h1 className="product3-price">11.50 руб.</h1>
+            <h1 className="product3-price">{price}</h1>
             <Link href="/feedback">
               <a className="product3-link button">Оформить зказ</a>
             </Link>

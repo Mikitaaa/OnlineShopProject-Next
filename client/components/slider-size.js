@@ -3,11 +3,12 @@ import { useState } from 'react';
 
 import PropTypes from 'prop-types'
 
-const SliderSize = ({ imagePaths, ...props }) => {
+const SliderSize = ({ imagePaths,onChange, ...props }) => {
   const [activeButton, setActiveButton] = useState(props.button);
 
   const handleClick = (value) => {
     setActiveButton(value);
+    onChange(value);
   };
 
   return (
@@ -250,6 +251,7 @@ SliderSize.propTypes = {
   button1: PropTypes.string,
   button: PropTypes.string,
   heading: PropTypes.string,
+  onChange: PropTypes.func.isRequired,
 }
 
 export default SliderSize
