@@ -73,7 +73,7 @@ const Futer = (props) => {
               </a>
             </div>
             <div className="futer-secondcontact">
-              <span className="futer-secphonenum">+375 (29) 619-43-22</span>
+              <span className="futer-secphonenum">+375 (44) 587-13-36</span>
               <div className="futer-contacticns">
                 <a
                   href="viber://chat?number=%2B375445871336"

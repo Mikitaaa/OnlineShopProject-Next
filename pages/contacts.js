@@ -29,8 +29,8 @@ const Contacts = (props) => {
               <h1 className="contacts-text03">Мобильная связь</h1>
             </div>
             <span className="contacts-n-ame">Владимир Владимирович</span>
-            <a href="tel:+375 (29) 619-43-22" className="contacts-firstnumber">
-              +375 (29) 619-43-22
+            <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber">
+              +375 (29) 587-13-36
             </a>
             <span className="contacts-name">Денис Валерьевич</span>
             <a href="tel:+375 (44) 702-28-30" className="contacts-secondnumber">
@@ -59,7 +59,7 @@ const Contacts = (props) => {
                     <path d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"></path>
                   </svg>
                   <span className="contacts-text05">
-                    <span>+375 (29) 619-43-22</span>
+                    <span>+375 (44) 587-13-36</span>
                     <br></br>
                   </span>
                 </div>
@@ -77,7 +77,7 @@ const Contacts = (props) => {
                     className="contacts-image"
                   />
                   <span className="contacts-text08">
-                    <span>+375 (29) 619-43-22</span>
+                    <span>+375 (44) 587-13-36</span>
                     <br></br>
                   </span>
                 </div>

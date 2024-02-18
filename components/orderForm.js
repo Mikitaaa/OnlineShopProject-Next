@@ -6,6 +6,8 @@ class HomeOrderForm extends React.Component {
       const name = event.target.elements['Поле для имени'].value;
       const phone = event.target.elements['строка для телефона'].value;
 
+      event.target.elements['Agreement'].checked = false;
+
       fetch('http://localhost:8000/', {
   method: 'POST',
   headers: {
@@ -24,6 +26,8 @@ class HomeOrderForm extends React.Component {
 })
 .then((data) => {
         alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
+        event.target.elements['Поле для имени'].value = '';
+        event.target.elements['строка для телефона'].value = '';
       })
       .catch((error) => {
         alert('Отправка временно недоступн,попробуйте позже');
