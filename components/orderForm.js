@@ -13,6 +13,7 @@ class HomeOrderForm extends React.Component {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Authorization': 'Basic ' + btoa('GroundshopSite' + ':-]S8.xj4@-4m.9W)d9:C:G@aVg=8.F')
         },
         body: JSON.stringify({
           name: name,

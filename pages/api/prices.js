@@ -1,3 +1,8 @@
+import path from 'path';
+import fs from 'fs';
+
+const usersFilePath = path.join(process.cwd(), 'private', 'users.json');
+const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 let variables = {
     prod_1_100l: '20,20',
     prod_1_250l: '37',
@@ -17,6 +22,17 @@ let variables = {
     if (req.method === 'GET') {
       res.status(200).json(variables);
     } else if (req.method === 'POST') {
+
+    const auth = require('basic-auth');
+    const user = auth(req);
+
+    if (!user || !users[user.name] || users[user.name] !== user.pass) {
+        res.statusCode = 401;
+        res.setHeader('WWW-Authenticate', 'Basic realm="example"');
+        res.end('Unauthorized');
+        return;
+    }
+
       const data = req.body;
       variables = { ...variables, ...data };
       res.status(200).json(variables);
