@@ -7,6 +7,13 @@ import SliderSize from '../components/slider-size'
 import Futer from '../components/futer'
 
 const Product3 = (props) => {
+
+  let pairs = [
+    {first: '../Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg', second: '../Products/Products_250/peat_1.1_250.jpg'},
+    {first: '../Products/Products_100/Product_3/traven-kislyij-2-1.jpg', second: '../Products/Products_250/peat_1.2_250.jpg'},
+    {first: '../Products/Products_100/Product_3/traven-kislyij-3-1.jpg', second: '../Products/Products_250/peat_1.3_250.jpg'},
+    {first: '../Products/Products_100/Product_3/traven-kislyij-4-1.jpg', second: '../Products/Products_250/peat_1.4_250.jpg'}];
+
   return (
     <>
       <div className="product3-container">
@@ -21,7 +28,7 @@ const Product3 = (props) => {
           </h1>
         </div>
         <div className="product3-main-info">
-          <SliderSize></SliderSize>
+        <SliderSize imagePaths = {pairs}></SliderSize>
           <div className="product3-compound">
             <h1 className="product3-head-compound">Состав:</h1>
             <span className="product3-compound1">

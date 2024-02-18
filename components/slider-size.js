@@ -1,8 +1,15 @@
 import React from 'react'
+import { useState } from 'react';
 
 import PropTypes from 'prop-types'
 
-const SliderSize = (props) => {
+const SliderSize = ({ imagePaths, ...props }) => {
+  const [activeButton, setActiveButton] = useState(props.button);
+
+  const handleClick = (value) => {
+    setActiveButton(value);
+  };
+
   return (
     <>
       <div className="slider-size-slider-size">
@@ -62,11 +69,19 @@ const SliderSize = (props) => {
         </div>
         <div className="slider-size-size">
           <h1 className="slider-size-text">{props.heading}</h1>
-          <button type="button" className="slider-size-button button">
-            {props.button}
+          <button 
+            type="button"
+            className={`slider-size-button button ${activeButton === props.button ? 'active' : ''}`} 
+            onClick={() => handleClick(props.button)}
+          >
+          {props.button}
           </button>
-          <button type="button" className="slider-size-button1 button">
-            {props.button1}
+          <button 
+            type="button"
+            className={`slider-size-button1 button ${activeButton === props.button1 ? 'active' : ''}`} 
+            onClick={() => handleClick(props.button1)}
+          >
+          {props.button1}
           </button>
         </div>
       </div>
@@ -92,28 +107,26 @@ const SliderSize = (props) => {
           }
           .slider-size-slider-slide {
             display: flex;
+            align-items: center;
             background-size: cover;
-            background-image: url('/Products/Products_100/Product_1/peat_1.1-600h.jpg');
-            background-repeat: repeat;
-            background-position: center;
+            justify-content: center;
+            background-image: url(${activeButton === props.button ? imagePaths[0].first : imagePaths[0].second});
           }
           .slider-size-slider-slide1 {
             display: flex;
             background-size: cover;
-            background-image: url('/Products/Products_100/Product_1/peat_1.2-600h.jpg');
-            background-position: center;
+            background-image: url(${activeButton === props.button ? imagePaths[1].first : imagePaths[1].second});
           }
           .slider-size-slider-slide2 {
             display: flex;
             background-size: cover;
-            background-image: url('/Products/Products_100/Product_1/peat_1.3-600h.jpg');
-            background-position: center;
+            background-image: url(${activeButton === props.button ? imagePaths[2].first : imagePaths[2].second});
           }
           .slider-size-slider-slide3 {
+            width: 100%;
             display: flex;
             background-size: cover;
-            background-image: url('/Products/Products_100/Product_1/peat_1.4-600h.jpg');
-            background-position: center;
+            background-image: url(${activeButton === props.button ? imagePaths[3].first : imagePaths[3].second});
           }
           .slider-size-slider-pagination {
             display: block;
@@ -147,6 +160,10 @@ const SliderSize = (props) => {
             border-color: var(--dl-color-gray-2);
             background-color: rgb(241, 219, 188);
           }
+          .active {
+            background-color: var(--dl-color-gray-2); /* Darker blue */
+            color: white;
+          }  
           @media (max-width: 1200px) {
             .slider-size-slider-slide {
               background-position: center;

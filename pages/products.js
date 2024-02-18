@@ -25,7 +25,7 @@ const Products = (props) => {
                   <div className="products-first-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_1/peat_1-1500w.jpg"
+                      src="/Products/Products_100/Product_1/traven-dlya-golubiki-1-2-1.jpg"
                       className="products-product1"
                     />
                     <div className="products-product-description">
@@ -51,7 +51,7 @@ const Products = (props) => {
                   <div className="products-second-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_2/peat_2-1500w.jpg"
+                      src="/Products/Products_100/Product_2/traven-universalnyij-1-2-1.jpg"
                       className="products-product11"
                     />
                     <div className="products-product-discription">
@@ -79,7 +79,7 @@ const Products = (props) => {
                   <div className="products-thirt-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_3/peat_3-1500w.jpg"
+                      src="/Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg"
                       className="products-product12"
                     />
                     <div className="products-product-discription1">
@@ -104,7 +104,7 @@ const Products = (props) => {
                   <div className="products-fourth-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_4/peat_4-1500w.jpg"
+                      src="/Products/Products_100/Product_4/traven-nejtralizovannyij-1-1.jpg"
                       className="products-product13"
                     />
                     <div className="products-product-discription2">
@@ -132,7 +132,7 @@ const Products = (props) => {
                   <div className="products-fifth-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_5/peat_5-1500w.jpg"
+                      src="/Products/Products_100/Product_5/traven-kompost-11.jpg"
                       className="products-product14"
                     />
                     <div className="products-product-discription3">
@@ -157,7 +157,7 @@ const Products = (props) => {
                   <div className="products-sixth-product">
                     <img
                       alt="image"
-                      src="/Products/Products_100/Product_6/peat_6-1500w.jpg"
+                      src="/Products/Products_100/Product_6/traven-gryadki-11.jpg"
                       className="products-product15"
                     />
                     <div className="products-product-discription4">

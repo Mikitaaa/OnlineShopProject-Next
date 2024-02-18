@@ -108,7 +108,7 @@ const Home = (props) => {
               <div className="home-container02">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_1/peat_1-1500w.jpg"
+                  src="/Products/Products_100/Product_1/traven-dlya-golubiki-1-2-1.jpg"
                   className="home-product1"
                 />
                 <div className="home-product-button">
@@ -121,7 +121,7 @@ const Home = (props) => {
               <div className="home-container03">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_2/peat_2-1500w.jpg"
+                  src="/Products/Products_100/Product_2/traven-universalnyij-1-2-1.jpg"
                   className="home-product2"
                 />
                 <div className="home-product-button1">
@@ -134,7 +134,7 @@ const Home = (props) => {
               <div className="home-container04">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_3/peat_3-1500w.jpg"
+                  src="/Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg"
                   className="home-product3"
                 />
                 <div className="home-product-button2">
@@ -149,7 +149,7 @@ const Home = (props) => {
               <div className="home-container06">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_4/peat_4-1500w.jpg"
+                  src="/Products/Products_100/Product_4/traven-nejtralizovannyij-1-1.jpg"
                   className="home-product4"
                 />
                 <div className="home-product-button3">
@@ -162,7 +162,7 @@ const Home = (props) => {
               <div className="home-container07">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_5/peat_5-1500w.jpg"
+                  src="/Products/Products_100/Product_5/traven-kompost-11.jpg"
                   className="home-product5"
                 />
                 <div className="home-product-button4">
@@ -175,7 +175,7 @@ const Home = (props) => {
               <div className="home-container08">
                 <img
                   alt="image"
-                  src="/Products/Products_100/Product_6/peat_6-1500w.jpg"
+                  src="/Products/Products_100/Product_6/traven-gryadki-11.jpg"
                   className="home-product6"
                 />
                 <div className="home-product-button5">
