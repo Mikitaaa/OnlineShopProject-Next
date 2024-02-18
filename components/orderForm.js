@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class HomeOrderForm extends React.Component {
     handleSubmit = (event) => {
@@ -22,9 +22,13 @@ class HomeOrderForm extends React.Component {
   }
   return response.json();
 })
-.then((data) => console.log('Успешно отправлено:', data))
-.catch((error) => console.error('Ошибка при отправке:', error));
-    }
+.then((data) => {
+        alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
+      })
+      .catch((error) => {
+        alert('Отправка временно недоступн,попробуйте позже');
+      });
+  };
   
     render() {
       return (
