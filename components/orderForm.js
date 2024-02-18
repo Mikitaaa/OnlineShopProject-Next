@@ -1,37 +1,36 @@
 import React from 'react';
 
 class HomeOrderForm extends React.Component {
-    handleSubmit = (event) => {
-      event.preventDefault();
-      const name = event.target.elements['Поле для имени'].value;
-      const phone = event.target.elements['строка для телефона'].value;
+  handleSubmit = async (event) => {
+    event.preventDefault();
+    const name = event.target.elements['Поле для имени'].value;
+    const phone = event.target.elements['строка для телефона'].value;
 
-      event.target.elements['Agreement'].checked = false;
+    event.target.elements['Agreement'].checked = false;
 
-      fetch('http://localhost:8000/', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({
-    name: name,
-    phone: phone,
-  }),
-})
-.then((response) => {
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
-  }
-  return response.json();
-})
-.then((data) => {
-        alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
-        event.target.elements['Поле для имени'].value = '';
-        event.target.elements['строка для телефона'].value = '';
-      })
-      .catch((error) => {
-        alert('Отправка временно недоступн,попробуйте позже');
+    try {
+      const response = await fetch('api/route', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: name,
+          phone: phone,
+        }),
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
+      event.target.elements['Поле для имени'].value = '';
+      event.target.elements['строка для телефона'].value = '';
+    } catch (error) {
+      alert('Отправка временно недоступна, попробуйте позже');
+    }
   };
   
     render() {
