@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Futer = (props) => {
   return (
     <>
-      <div className={`futer-container ${props.rootClassName} `}>
+      <div className={`futer-container `}>
         <div className="futer-policy">
           <div className="futer-name-logo">
             <h1 className="futer-text">{props.heading}</h1>
@@ -15,8 +15,22 @@ const Futer = (props) => {
               className="futer-image"
             />
           </div>
-          <span className="futer-text1">{props.text4}</span>
-          <span className="futer-text2">{props.text5}</span>
+              <a
+                href="../Documents/Security-policy.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="futer-link2"
+              >
+                <span className="futer-text1">{props.text4}</span>
+              </a>
+              <a
+                href="../Documents/Terms-agreed.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="futer-link2"
+              >
+                <span className="futer-text2">{props.text5}</span>
+              </a>
         </div>
         <div className="futer-contacts">
           <div className="futer-contactshead">
@@ -24,7 +38,7 @@ const Futer = (props) => {
           </div>
           <div className="futer-contacts1">
             <div className="futer-firstcontact">
-              <span className="futer-firstphonenum">{props.phoneNum}</span>
+              <span className="futer-firstphonenum">+375 (44) 702-28-30</span>
               <a
                 href="viber://chat?number=%2B375447022830"
                 target="_blank"
@@ -134,7 +148,7 @@ const Futer = (props) => {
               </div>
             </div>
             <div className="futer-emailcontact">
-              <span className="futer-email">{props.text}</span>
+              <span className="futer-email">{props.mail}</span>
               <a
                   href="mailto:infogroundshop@gmail.com"
                   target="_blank"
@@ -797,43 +811,27 @@ const Futer = (props) => {
 }
 
 Futer.defaultProps = {
-  imageAlt11: 'image',
-  viberIcn1: '/Icons/viber-200h.png',
-  text: 'infogroundshop@gmail.com',
-  text3: 'Политика безопасности',
+  mail: 'infogroundshop@gmail.com',
   addr: 'Г.п Радошкович, ул. Серебрянка 43А',
-  text4: 'Политика безопасности',
   imageSrc1: '/Icons/logo-200h.png',
   contacts: 'Контактная информация',
-  rootClassName: '',
   imageAlt: 'image',
+  text4: 'Политика безопасности',
   text5: 'Условия соглашения',
   delivery: 'Доставка',
-  viberIcn: '/Icons/viber-200h.png',
   heading: 'GroundShop',
-  imageAlt1: 'image',
-  text1: 'Политика безопасности',
-  phoneNum: '+375 (44) 702-28-30',
 }
 
 Futer.propTypes = {
-  imageAlt11: PropTypes.string,
-  viberIcn1: PropTypes.string,
-  text: PropTypes.string,
-  text3: PropTypes.string,
+  mail: PropTypes.string,
   addr: PropTypes.string,
-  text4: PropTypes.string,
   imageSrc1: PropTypes.string,
   contacts: PropTypes.string,
-  rootClassName: PropTypes.string,
   imageAlt: PropTypes.string,
+  text4: PropTypes.string,
   text5: PropTypes.string,
   delivery: PropTypes.string,
-  viberIcn: PropTypes.string,
   heading: PropTypes.string,
-  imageAlt1: PropTypes.string,
-  text1: PropTypes.string,
-  phoneNum: PropTypes.string,
 }
 
 export default Futer
