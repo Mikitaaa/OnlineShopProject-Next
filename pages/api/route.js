@@ -35,7 +35,7 @@ export default async function handler(req, res) {
     }
   }else if (req.method === 'POST') {
     try {
-      const { name, phone } = req.body;
+      const { name, phone, comment } = req.body;
       const db = await open({
         filename: 'pages/api/data.db',
         driver: sqlite3.Database
@@ -44,10 +44,11 @@ export default async function handler(req, res) {
       await db.run(`CREATE TABLE IF NOT EXISTS orders (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT,
-        phone TEXT
+        phone TEXT,
+        comment TEXT
       )`);
 
-      await db.run('INSERT INTO orders (name, phone) VALUES (?, ?)', [name, phone]);
+      await db.run('INSERT INTO orders (name, phone, comment) VALUES (?, ?, ?)', [name, phone, comment]);
       res.status(201).json({ message: 'Данные успешно добавлены' });
     } catch (error) {
       console.error('Ошибка при выполнении запроса:', error.message);

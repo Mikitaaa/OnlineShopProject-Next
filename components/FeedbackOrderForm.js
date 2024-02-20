@@ -3,8 +3,9 @@ import React from 'react';
 class FeedbackOrderForm extends React.Component {
   handleSubmit = async (event) => {
     event.preventDefault();
-    const name = event.target.elements['Поле для имени'].value;
-    const phone = event.target.elements['строка для телефона'].value;
+    const name = event.target.elements['Name_field'].value;
+    const phone = event.target.elements['Phone_field'].value;
+    const comment = event.target.elements['Comment_field'].value;
 
     event.target.elements['Agreement'].checked = false;
 
@@ -18,6 +19,7 @@ class FeedbackOrderForm extends React.Component {
         body: JSON.stringify({
           name: name,
           phone: phone,
+          comment: comment,
         }),
       });
 
@@ -27,8 +29,9 @@ class FeedbackOrderForm extends React.Component {
 
       const data = await response.json();
       alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
-      event.target.elements['Поле для имени'].value = '';
-      event.target.elements['строка для телефона'].value = '';
+      event.target.elements['Name_field'].value = '';
+      event.target.elements['Phone_field'].value = '';
+      event.target.elements['Comment_field'].value = '';
     } catch (error) {
       alert('Отправка временно недоступна, попробуйте позже');
     }
@@ -48,7 +51,7 @@ class FeedbackOrderForm extends React.Component {
                 </div>
                 <input
                   type="text"
-                  name="Поле для имени"
+                  name="Name_field"
                   required
                   className="feedback-textinput input"
                 />
@@ -62,7 +65,7 @@ class FeedbackOrderForm extends React.Component {
                 </div>
                 <input
                   type="text"
-                  name="строка для телефона"
+                  name="Phone_field"
                   required
                   className="feedback-textinput1 input"
                 />
@@ -75,7 +78,7 @@ class FeedbackOrderForm extends React.Component {
                   <span className="feedback-text8">Комментарий</span>
                 </div>
                 <textarea
-                  name="Поле для комментария"
+                  name="Comment_field"
                   placeholder="Оставьте комментарий"
                   className="feedback-textarea"
                 ></textarea>

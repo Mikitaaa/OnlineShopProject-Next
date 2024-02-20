@@ -18,6 +18,7 @@ class HomeOrderForm extends React.Component {
         body: JSON.stringify({
           name: name,
           phone: phone,
+          comment: '',
         }),
       });
 
