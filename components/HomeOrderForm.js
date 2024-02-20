@@ -3,8 +3,8 @@ import React from 'react';
 class HomeOrderForm extends React.Component {
   handleSubmit = async (event) => {
     event.preventDefault();
-    const name = event.target.elements['Поле для имени'].value;
-    const phone = event.target.elements['строка для телефона'].value;
+    const name = event.target.elements['Name_field'].value;
+    const phone = event.target.elements['Phone_field'].value;
 
     event.target.elements['Agreement'].checked = false;
 
@@ -28,8 +28,8 @@ class HomeOrderForm extends React.Component {
 
       const data = await response.json();
       alert('Сообщение отправлено, мы свяжемся с вами в ближайшее время');
-      event.target.elements['Поле для имени'].value = '';
-      event.target.elements['строка для телефона'].value = '';
+      event.target.elements['Name_field'].value = '';
+      event.target.elements['Phone_field'].value = '';
     } catch (error) {
       alert('Отправка временно недоступна, попробуйте позже');
     }
@@ -52,7 +52,7 @@ class HomeOrderForm extends React.Component {
                 </div>
                 <input
                   type="text"
-                  name="Поле для имени"
+                  name="Name_field"
                   required
                   className="home-textinput input"
                 />
@@ -66,7 +66,7 @@ class HomeOrderForm extends React.Component {
                 </div>
                 <input
                   type="text"
-                  name="строка для телефона"
+                  name="Phone_field"
                   required
                   className="home-textinput1 input"
                 />
