@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Header1 from '../components/header1'
 import GreenAdvantage from '../components/green-advantage'
 import Futer from '../components/futer'
-import HomeOrderForm from '../components/orderForm'
+import HomeOrderForm from '../components/HomeOrderForm'
 
 const Home = (props) => {
   return (
