@@ -92,7 +92,7 @@ const handleButtonChange = (value) => {
             </span>
             <h1 className="product6-price">{price}</h1>
             <Link href="/feedback">
-              <a className="product6-link button">Оформить зказ</a>
+              <a className="product6-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>

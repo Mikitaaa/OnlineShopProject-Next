@@ -77,7 +77,7 @@ const Product1 = (props) => {
             </span>
             <h1 className="product1-price">{price}</h1>
             <Link href="/feedback">
-              <a className="product1-link button">Оформить зказ</a>
+              <a className="product1-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>

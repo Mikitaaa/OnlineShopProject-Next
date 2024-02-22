@@ -122,7 +122,7 @@ const Home = (props) => {
                 </div>
               </div>
               </Link>
-              <Link href="/product1">
+              <Link href="/product2">
               <div className="home-container03">
                 <img
                   alt="image"
@@ -137,7 +137,7 @@ const Home = (props) => {
                 </div>
               </div>
               </Link>
-              <Link href="/product1">
+              <Link href="/product3">
               <div className="home-container04">
                 <img
                   alt="image"
@@ -154,7 +154,7 @@ const Home = (props) => {
               </Link>
             </div>
             <div className="home-container05">
-            <Link href="/product1">
+            <Link href="/product4">
               <div className="home-container06">
                 <img
                   alt="image"
@@ -169,7 +169,7 @@ const Home = (props) => {
                 </div>
               </div>
               </Link>
-              <Link href="/product1">
+              <Link href="/product5">
               <div className="home-container07">
                 <img
                   alt="image"
@@ -184,7 +184,7 @@ const Home = (props) => {
                 </div>
               </div>
               </Link>
-              <Link href="/product1">
+              <Link href="/product6">
               <div className="home-container08">
                 <img
                   alt="image"
