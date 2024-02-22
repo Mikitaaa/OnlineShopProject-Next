@@ -38,7 +38,9 @@ const Futer = (props) => {
           </div>
           <div className="futer-contacts1">
             <div className="futer-firstcontact">
-              <span className="futer-firstphonenum">+375 (44) 702-28-30</span>
+              <a href="tel:+375 (44) 702-28-30" className="futer-firstphonenum">
+              +375 (44) 702-28-30
+              </a>
               <a
                 href="viber://chat?number=%2B375447022830"
                 target="_blank"
@@ -87,7 +89,9 @@ const Futer = (props) => {
               </a>
             </div>
             <div className="futer-secondcontact">
-              <span className="futer-secphonenum">+375 (44) 587-13-36</span>
+            <a href="tel:+375 (44) 587-13-36" className="futer-secphonenum">
+              +375 (29) 587-13-36
+            </a>
               <div className="futer-contacticns">
                 <a
                   href="viber://chat?number=%2B375445871336"
@@ -148,14 +152,14 @@ const Futer = (props) => {
               </div>
             </div>
             <div className="futer-emailcontact">
-              <span className="futer-email">{props.mail}</span>
               <a
                   href="mailto:infogroundshop@gmail.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="futer-link2"
                 >
-              <svg viewBox="0 0 1024 1024" className="futer-mailicn">
+                  <span className="futer-email">{props.mail}</span>
+                <svg viewBox="0 0 1024 1024" className="futer-mailicn">
                 <path d="M128 337.963l359.552 251.691c14.507 10.027 33.92 10.496 48.939 0l359.509-251.691v430.037c0 11.605-4.693 22.229-12.587 30.080s-18.475 12.587-30.080 12.587h-682.667c-11.605 0-22.229-4.693-30.080-12.587s-12.587-18.475-12.587-30.080zM42.667 256.512v511.488c0 35.328 14.507 67.371 37.547 90.453s55.125 37.547 90.453 37.547h682.667c35.328 0 67.371-14.507 90.453-37.547s37.547-55.125 37.547-90.453v-511.488c0-0.427 0-0.853 0-1.28-0.213-35.029-14.635-66.773-37.547-89.685-23.083-23.040-55.125-37.547-90.453-37.547h-682.667c-35.328 0-67.371 14.507-90.453 37.547-22.912 22.912-37.333 54.656-37.547 89.728 0 0.213 0 0.469 0 0.725zM891.477 236.971l-379.477 265.6-379.477-265.6c2.048-4.096 4.779-7.808 8.021-11.051 7.893-7.893 18.517-12.587 30.123-12.587h682.667c11.605 0 22.229 4.693 30.080 12.587 3.243 3.243 5.973 6.997 8.021 11.051z"></path>
               </svg>
               </a>
@@ -262,6 +266,10 @@ const Futer = (props) => {
             color: var(--dl-color-gray-2);
             font-size: 20px;
             align-self: center;
+            transition: 0.3s;
+          }
+          .futer-firstphonenum:hover {
+            color: #9f705a;
           }
           .futer-link {
             display: contents;
@@ -288,6 +296,10 @@ const Futer = (props) => {
             color: var(--dl-color-gray-2);
             font-size: 20px;
             align-self: center;
+            transition: 0.3s;
+          }
+          .futer-secphonenum:hover {
+            color: #9f705a;
           }
           .futer-contacticns {
             width: auto;
@@ -329,10 +341,17 @@ const Futer = (props) => {
             padding: var(--dl-space-space-halfunit);
             justify-content: flex-start;
           }
+          .futer-emailcontact:hover .futer-email {
+            color: #9f705a;
+          }
+          .futer-emailcontact:hover .futer-mailicn {
+            fill: #9f705a;
+          }
           .futer-email {
             color: var(--dl-color-gray-2);
             font-size: 20px;
             align-self: center;
+            transition: 0.3s;
           }
           .futer-mailicn {
             fill: var(--dl-color-gray-2);
@@ -340,9 +359,6 @@ const Futer = (props) => {
             height: 30px;
             transition: 0.3s;
             margin-left: var(--dl-space-space-halfunit);
-          }
-          .futer-mailicn:hover {
-            fill: #9f705a;
           }
           .futer-delivery {
             width: 33%;
