@@ -148,17 +148,21 @@ const Delivery = (props) => {
             color: var(--dl-color-gray-2);
           }
           .delivery-link {
-            color: var(--dl-color-primary-selen4);
-            font-weight: 400;
-            line-height: 1.15;
-            text-transform: none;
-            text-decoration: none;
+            color:  #12C412;
+            transition: 0.3s;
+          }
+          .delivery-link:hover {
+            color: #09DE09;
           }
           .delivery-text10 {
             color: var(--dl-color-gray-2);
           }
           .delivery-link1 {
-            color: var(--dl-color-primary-selen4);
+            color: #12C412;
+            transition: 0.3s;
+          }
+          .delivery-link1:hover {
+            color: #09DE09;
           }
           .delivery-text13 {
             color: var(--dl-color-gray-2);

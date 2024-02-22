@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Header1 from '../components/header1'
 import Futer from '../components/futer'
@@ -20,8 +21,16 @@ const Feedback = (props) => {
             <span className="feedback-text1">
               <span>
                 Если у вас есть вопросы о наших товарах или вы хотите оформить
-                заказ, вы можете заполнить форму
+                заказ, вы можете заполнить форму или
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
+              <Link href="/contacts">
+                <a className="feedback-link">связаться с нами</a>
+              </Link>
               <br></br>
               <br></br>
               <span>Мы свяжемся с вами в ближайшее время!</span>
@@ -84,6 +93,13 @@ const Feedback = (props) => {
             font-size: 30px;
             margin-top: var(--dl-space-space-oneandhalfunits);
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .feedback-link {
+            color: #12C412;
+            transition: 0.3s;
+          }
+          .feedback-link:hover {
+            color: #09DE09;
           }
           .feedback-picture {
             width: 100%;

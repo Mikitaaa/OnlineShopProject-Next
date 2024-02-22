@@ -254,7 +254,7 @@ const Header1 = (props) => {
           }
           @media (max-width: 767px) {
             .header1-header {
-              height: 20vh;
+              height: 18vh;
               font-size: 22;
             }
             .header1-navbar-interactive {
