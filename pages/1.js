@@ -10,8 +10,10 @@ const Delivery = (props) => {
     <>
       <div className="delivery-container">
         <Head>
-          <title>Delivery - ground shop</title>
-          <meta property="og:title" content="Delivery - ground shop" />
+          <title>Доставка торфа</title>
+          <meta property="og:title" content="Доставка торфа" />
+          <meta name="description" content='Условия и способы доставки торфа в Беларуси.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name4"></Header1>
         <div className="delivery-maphead">

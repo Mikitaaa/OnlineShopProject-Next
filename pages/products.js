@@ -10,8 +10,10 @@ const Products = (props) => {
     <>
       <div className="products-container">
         <Head>
-          <title>Products - ground shop</title>
-          <meta property="og:title" content="Products - ground shop" />
+          <title>Продукция магазина GroundShop</title>
+          <meta property="og:title" content="Продукция магазина GroundShop" />
+          <meta name="description" content='Большой ассортимент органических товаров. Выбор торфгрунта.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name2"></Header1>
         <div className="products-product">

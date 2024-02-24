@@ -10,8 +10,10 @@ const Contacts = (props) => {
     <>
       <div className="contacts-container">
         <Head>
-          <title>Contacts - ground shop</title>
+          <title>Контакты магазина GroundShop в Минске</title>
           <meta property="og:title" content="Contacts - ground shop" />
+          <meta name="description" content='Контакты GroundShop. Номера телефонов для связи - Тел: +375 (29) 587-13-36. Адреса складов для самовывоза.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name3"></Header1>
         <div className="contacts-ourcontacts">

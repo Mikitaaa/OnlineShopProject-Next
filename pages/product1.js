@@ -38,8 +38,10 @@ const Product1 = (props) => {
     <>
       <div className="product1-container">
         <Head>
-          <title>Product1 - ground shop</title>
-          <meta property="og:title" content="Product1 - ground shop" />
+          <title>Торф для голубики купить Минск</title>
+          <meta property="og:title" content="Торф для голубики купить Минск." />
+          <meta name="description" content='Торф для голубики купить с доставкой мешки по 100 и 250 литров.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name6"></Header1>
         <div className="product1-producthead">

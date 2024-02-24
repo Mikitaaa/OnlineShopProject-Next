@@ -12,8 +12,10 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>ground shop</title>
+          <title>Купить торф в Минске</title>
+          <meta name="description" content='Купить торф оптом и в розницу в мешках по 100 и 250 литров. Купить торф в Минске. Оформить доставку торфа по всей Беларуси.'></meta>
           <meta property="og:title" content="ground shop" />
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1
           imageSrc="/Icons/logo-1500h.png"

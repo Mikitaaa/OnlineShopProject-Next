@@ -11,8 +11,10 @@ const Feedback = (props) => {
     <>
       <div className="feedback-container">
         <Head>
-          <title>Feedback - ground shop</title>
-          <meta property="og:title" content="Feedback - ground shop" />
+          <title>Обратная связь магазина GroundShop в Минске</title>
+          <meta property="og:title" content="Обратная связь магазина GroundShop в Минске" />
+          <meta name="description" content='Обратная связь GroundShop. Получить консультацию онлайн. Заполнить форму консультации. Узнать подбобности заказа.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name5"></Header1>
         <div className="feedback-infoform">

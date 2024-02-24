@@ -38,8 +38,10 @@ const handleButtonChange = (value) => {
     <>
       <div className="product3-container">
         <Head>
-          <title>Product3 - ground shop</title>
-          <meta property="og:title" content="Product3 - ground shop" />
+          <title>Торф кислый купить Минск</title>
+          <meta property="og:title" content="Торф кислый купить Минск." />
+          <meta name="description" content='Торф кислый купить с доставкой мешки по 100 и 250 литров.'></meta>
+          <meta name="keywords" content=''></meta>
         </Head>
         <Header1 rootClassName="header1-root-class-name13"></Header1>
         <div className="product3-producthead">
