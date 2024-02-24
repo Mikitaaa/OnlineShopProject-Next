@@ -32,21 +32,21 @@ const Home = (props) => {
                 data-thq="slider-slide"
                 className="home-slider-slide swiper-slide"
               >
-                <h1 className="home-text">Природные решения для вашего сада</h1>
+                <div className="home-text">Природные решения для вашего сада</div>
               </div>
               <div
                 data-thq="slider-slide"
                 className="home-slider-slide1 swiper-slide"
               >
-                <h1 className="home-text01">Торф для любых растений</h1>
+                <div className="home-text01">Торф для любых растений</div>
               </div>
               <div
                 data-thq="slider-slide"
                 className="home-slider-slide2 swiper-slide"
               >
-                <h1 className="home-text02">
+                <div className="home-text02">
                   Урожайность без ущерба для кошелька!
-                </h1>
+                </div>
               </div>
             </div>
             <div
@@ -208,27 +208,27 @@ const Home = (props) => {
               <svg viewBox="0 0 1024 1024" className="home-icon06">
                 <path d="M726 512q0 18-13 30t-31 12h-426l-170 172v-598q0-18 12-30t30-12h554q18 0 31 12t13 30v384zM896 256q18 0 30 12t12 30v640l-170-170h-470q-18 0-30-12t-12-30v-86h554v-384h86z"></path>
               </svg>
-              <h1 className="home-heading">Часто задаваемые вопросы</h1>
+              <h2 className="home-heading">Часто задаваемые вопросы</h2>
             </div>
             <div className="home-question-block">
               <div className="home-question-1">
-                <h1 className="home-text10">Какие условия доставки?</h1>
+                <h3 className="home-text10">Какие условия доставки?</h3>
                 <span className="home-text11">
                   Мы осуществляем доставку в удобное для вас время и место. Все
                   подробности доставки можно уточнить по телефону.
                 </span>
               </div>
               <div className="home-question-2">
-                <h1 className="home-text12">Почему люди выбирают нас?</h1>
+                <h4 className="home-text12">Почему люди выбирают нас?</h4>
                 <span className="home-text13">
                   У нас годами проверенные поставщики с огромным опытом работы
                   на рынке и довольными клиентами.
                 </span>
               </div>
               <div className="home-question-3">
-                <h1 className="home-text14">
+                <h5 className="home-text14">
                   Чем органические продукты отличаются от неорганических?
-                </h1>
+                </h5>
                 <span className="home-text15">
                   Органические продукты производятся без использования
                   синтетических удобрений, пестицидов и генетически

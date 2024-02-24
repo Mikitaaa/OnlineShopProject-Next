@@ -50,7 +50,7 @@ const handleButtonChange = (value) => {
         <div className="product5-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product5-compound">
-            <h1 className="product5-head-compound">Состав:</h1>
+            <h2 className="product5-head-compound">Состав:</h2>
             <span className="product5-compound1">
               <span>- Торф верховой фракция 5-10 мм 70% (средне крупный)</span>
               <br></br>
@@ -92,14 +92,14 @@ const handleButtonChange = (value) => {
                 />
               </span>
             </span>
-            <h1 className="product5-price">{price}</h1>
+            <h3 className="product5-price">{price}</h3>
             <Link href="/feedback">
               <a className="product5-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product5-discription">
-          <h1 className="product5-text22">Описание:</h1>
+          <h4 className="product5-text22">Описание:</h4>
           <span className="product5-text23">
             <span>
               Компост «Traven» - питательный торфяной субстрат на основе

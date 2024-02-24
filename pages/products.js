@@ -29,10 +29,10 @@ const Products = (props) => {
                       className="products-product1"
                     />
                     <div className="products-product-description">
-                      <h1 className="products-text01">
+                      <h2 className="products-text01">
                         Субстрат торфяной «Traven» для голубики рН 2,8-4,0
                         100л/250л
-                      </h1>
+                      </h2>
                       <div className="products-product-button">
                         <span className="products-text02">Подробнее</span>
                         <svg
@@ -55,10 +55,10 @@ const Products = (props) => {
                       className="products-product11"
                     />
                     <div className="products-product-discription">
-                      <h1 className="products-text03">
+                      <h3 className="products-text03">
                         Субстрат торфяной «Traven» универсальный рН 5,5-7,0,
                         100л/250л
-                      </h1>
+                      </h3>
                       <div className="products-product-button1">
                         <span className="products-text04">Подробнее</span>
                         <svg
@@ -83,9 +83,9 @@ const Products = (props) => {
                       className="products-product12"
                     />
                     <div className="products-product-discription1">
-                      <h1 className="products-text05">
+                      <h4 className="products-text05">
                         Субстрат торфяной «Traven» кислый рН 2,8-4,0 100л/250л
-                      </h1>
+                      </h4>
                       <div className="products-product-button2">
                         <span className="products-text06">Подробнее</span>
                         <svg
@@ -108,10 +108,10 @@ const Products = (props) => {
                       className="products-product13"
                     />
                     <div className="products-product-discription2">
-                      <h1 className="products-text07">
+                      <h5 className="products-text07">
                         Субстрат торфяной «Traven» нейтрализованный рН 5,5-6,5
                         100л/250л
-                      </h1>
+                      </h5>
                       <div className="products-product-button3">
                         <span className="products-text08">Подробнее</span>
                         <svg
@@ -136,9 +136,9 @@ const Products = (props) => {
                       className="products-product14"
                     />
                     <div className="products-product-discription3">
-                      <h1 className="products-text09">
+                      <h6 className="products-text09">
                         Субстрат торфяной «Traven» компост 100л/250л
-                      </h1>
+                      </h6>
                       <div className="products-product-button4">
                         <span className="products-text10">Подробнее</span>
                         <svg
@@ -161,9 +161,9 @@ const Products = (props) => {
                       className="products-product15"
                     />
                     <div className="products-product-discription4">
-                      <h1 className="products-text11">
+                      <h7 className="products-text11">
                         Субстрат торфяной «Traven» высокие грядки 100л/250л
-                      </h1>
+                      </h7>
                       <div className="products-product-button5">
                         <span className="products-text12">Подробнее</span>
                         <svg
@@ -181,7 +181,7 @@ const Products = (props) => {
           </div>
         </div>
         <div className="products-advantages">
-          <h1 className="products-text13">Преимущества торфяных субстратов</h1>
+          <h8 className="products-text13">Преимущества торфяных субстратов</h8>
           <div className="products-advantagesall">
             <span className="products-firstadvan">
               <span className="products-text14">·</span>

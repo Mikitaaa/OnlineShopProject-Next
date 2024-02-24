@@ -50,7 +50,7 @@ const handleButtonChange = (value) => {
         <div className="product4-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product4-compound">
-            <h1 className="product4-head-compound">Состав:</h1>
+            <h2 className="product4-head-compound">Состав:</h2>
             <span className="product4-compound1">
               <span>- Торф верховой фракции 0-5 мм</span>
               <br></br>
@@ -61,14 +61,14 @@ const handleButtonChange = (value) => {
               <br></br>
               <span>- рН 5,5-6,5</span>
             </span>
-            <h1 className="product4-price">{price}</h1>
+            <h3 className="product4-price">{price}</h3>
             <Link href="/feedback">
               <a className="product4-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product4-discription">
-          <h1 className="product4-text06">Описание:</h1>
+          <h4 className="product4-text06">Описание:</h4>
           <span className="product4-text07">
             <span>
               Торф верховой нейтрализованный – идеальная основа для выращивания

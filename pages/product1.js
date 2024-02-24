@@ -50,7 +50,7 @@ const Product1 = (props) => {
         <div className="product1-main-info">
           <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product1-compound">
-            <h1 className="product1-head-compound">Состав:</h1>
+            <h2 className="product1-head-compound">Состав:</h2>
             <span className="product1-compound1">
               <span>- Торф верховой фракции 0-5 мм</span>
               <br></br>
@@ -75,14 +75,14 @@ const Product1 = (props) => {
               <span>- Агроперлит  </span>
               <span>рН 2,8-4,0</span>
             </span>
-            <h1 className="product1-price">{price}</h1>
+            <h3 className="product1-price">{price}</h3>
             <Link href="/feedback">
               <a className="product1-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product1-discription">
-          <h1 className="product1-text20">Описание:</h1>
+          <h4 className="product1-text20">Описание:</h4>
           <span className="product1-text21">
             <span>
               Торфяной субстрат для голубики изготовляется на основе торфа

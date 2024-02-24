@@ -50,7 +50,7 @@ const handleButtonChange = (value) => {
         <div className="product6-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product6-compound">
-            <h1 className="product6-head-compound">Состав:</h1>
+            <h2 className="product6-head-compound">Состав:</h2>
             <span className="product6-compound1">
               <span>- Торф верховой фракция 5-20 мм (средне крупный)</span>
               <br></br>
@@ -90,14 +90,14 @@ const handleButtonChange = (value) => {
                 />
               </span>
             </span>
-            <h1 className="product6-price">{price}</h1>
+            <h3 className="product6-price">{price}</h3>
             <Link href="/feedback">
               <a className="product6-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product6-discription">
-          <h1 className="product6-text22">Описание:</h1>
+          <h4 className="product6-text22">Описание:</h4>
           <span className="product6-text23">
             <span>
               Питательный торфяной субстрат «Traven» высокие грядки – это

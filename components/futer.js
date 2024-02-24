@@ -34,7 +34,7 @@ const Futer = (props) => {
         </div>
         <div className="futer-contacts">
           <div className="futer-contactshead">
-            <h1 className="futer-headtext">{props.contacts}</h1>
+            <h2 className="futer-headtext">{props.contacts}</h2>
           </div>
           <div className="futer-contacts1">
             <div className="futer-firstcontact">
@@ -168,7 +168,7 @@ const Futer = (props) => {
         </div>
         <div className="futer-delivery">
           <div className="futer-deliveryhead">
-            <h1 className="futer-deliveryhead1">{props.delivery}</h1>
+            <h3 className="futer-deliveryhead1">{props.delivery}</h3>
           </div>
           <span className="futer-addr">{props.addr}</span>
         </div>

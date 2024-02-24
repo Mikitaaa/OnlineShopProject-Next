@@ -50,7 +50,7 @@ const Product2 = (props) => {
         <div className="product2-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product2-compound">
-            <h1 className="product2-head-compound">Состав:</h1>
+            <h2 className="product2-head-compound">Состав:</h2>
             <span className="product2-compound1">
               <span>- Торф верховой фракции 0-5 мм</span>
               <br></br>
@@ -107,14 +107,14 @@ const Product2 = (props) => {
               <br></br>
               <span>- Агроперлит рН 5,5-7,0</span>
             </span>
-            <h1 className="product2-price">{price}</h1>
+            <h3 className="product2-price">{price}</h3>
             <Link href="/feedback">
               <a className="product2-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product2-discription">
-          <h1 className="product2-text21">Описание:</h1>
+          <h4 className="product2-text21">Описание:</h4>
           <span className="product2-text22">
             <span>
               Торф «Traven» универсальный – это профессиональный торф класс 1

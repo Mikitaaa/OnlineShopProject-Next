@@ -40,7 +40,7 @@ const Header1 = (props) => {
               <div className="header1-top">
                 <Link href="/">
                   <a className="header1-link1">
-                    <h1 className="header1-text1">{props.heading1}</h1>
+                    <h2 className="header1-text1">{props.heading1}</h2>
                   </a>
                 </Link>
                 <div data-thq="thq-close-menu" className="header1-close-menu">
