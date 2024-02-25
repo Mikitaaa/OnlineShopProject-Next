@@ -12,16 +12,9 @@ function Map() {
 
     function init(){ 
       var myMap = new window.ymaps.Map("map", {
-          center: [54.044328335841236,27.273823911743133], // координаты места, которое вы выбрали
-          zoom: 8
+          center: [53.848480856519636,27.40076749999997], // координаты места, которое вы выбрали
+          zoom: 10
       });
-
-      var myPlacemark1 = new window.ymaps.Placemark([54.174253570433955,27.225295499999895], {}, {
-          preset: 'islands#redIcon' // стиль метки
-      });
-
-      // Добавляем первую метку
-      myMap.geoObjects.add(myPlacemark1);
 
       // Создаем вторую метку с новыми координатами
       var myPlacemark2 = new window.ymaps.Placemark([53.848480856519636,27.40076749999997], {}, {

@@ -170,7 +170,8 @@ const Futer = (props) => {
           <div className="futer-deliveryhead">
             <h3 className="futer-deliveryhead1">{props.delivery}</h3>
           </div>
-          <span className="futer-addr">{props.addr}</span>
+          <span className="futer-deliv">{props.phone_1}</span>
+          <span className="futer-deliv">{props.phone_2}</span>
         </div>
       </div>
       <style jsx>
@@ -377,7 +378,7 @@ const Futer = (props) => {
             color: var(--dl-color-gray-2);
             font-size: 25px;
           }
-          .futer-addr {
+          .futer-deliv {
             color: var(--dl-color-gray-2);
             padding: var(--dl-space-space-halfunit);
             font-size: 20px;
@@ -494,7 +495,7 @@ const Futer = (props) => {
             .futer-deliveryhead1 {
               font-size: 20;
             }
-            .futer-addr {
+            .futer-deliv {
               font-size: 18px;
             }
             .futer-root-class-name {
@@ -583,7 +584,7 @@ const Futer = (props) => {
             .futer-deliveryhead1 {
               font-size: 18;
             }
-            .futer-addr {
+            .futer-deliv {
               font-size: 16px;
             }
             .futer-root-class-name {
@@ -701,7 +702,7 @@ const Futer = (props) => {
             .futer-deliveryhead1 {
               font-size: 23px;
             }
-            .futer-addr {
+            .futer-deliv {
               font-size: 18px;
               align-self: flex-start;
               text-align: left;
@@ -828,7 +829,8 @@ const Futer = (props) => {
 
 Futer.defaultProps = {
   mail: 'infogroundshop@gmail.com',
-  addr: 'Г.п Радошкович, ул. Серебрянка 43А',
+  phone_1: '+375 (29) 587-13-36',
+  phone_2: '+375 (44) 702-28-30',
   imageSrc1: '/Icons/logo-200h.png',
   contacts: 'Контактная информация',
   imageAlt: 'image',

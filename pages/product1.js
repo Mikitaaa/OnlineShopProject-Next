@@ -24,7 +24,7 @@ const Product1 = (props) => {
     if (value === '100л') {
       setPrice(data.prod_1_100l+' руб.');
     } else{
-      setPrice(data.prod_2_250l+' руб.');
+      setPrice(data.prod_1_250l+' руб.');
     }
   };
 

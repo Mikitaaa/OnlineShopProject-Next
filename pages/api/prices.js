@@ -4,18 +4,18 @@ import fs from 'fs';
 const usersFilePath = path.join(process.cwd(), 'private', 'users.json');
 const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'));
 let variables = {
-    prod_1_100l: '20,20',
-    prod_1_250l: '37',
-    prod_2_100l: '21,40',
-    prod_2_250l: '41',
-    prod_3_100l: '16',
+    prod_1_100l: '20', // голубика
+    prod_1_250l: '38',
+    prod_2_100l: '21', // унивверсальный
+    prod_2_250l: '42',
+    prod_3_100l: '17', // кислый
     prod_3_250l: '29',
-    prod_4_100l: '18,30',
-    prod_4_250l: '31',
-    prod_5_100l: '24,15',
-    prod_5_250l: '41',
-    prod_6_100l: '30,80',
-    prod_6_250l: '53',
+    prod_4_100l: '18', // нейтрализированный
+    prod_4_250l: '32',
+    prod_5_100l: '23', // компост
+    prod_5_250l: '42',
+    prod_6_100l: '29', // высокие грядки
+    prod_6_250l: '54',
   };
   
   export default function handler(req, res) {

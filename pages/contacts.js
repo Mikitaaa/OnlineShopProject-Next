@@ -34,6 +34,9 @@ const Contacts = (props) => {
             <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber">
               +375 (29) 587-13-36
             </a>
+            <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber_2">
+              +375 (29) 619-43-22
+            </a>
             <span className="contacts-name">Денис Валерьевич</span>
             <a href="tel:+375 (44) 702-28-30" className="contacts-secondnumber">
               +375 (44) 702-28-30
@@ -47,6 +50,25 @@ const Contacts = (props) => {
               <h3 className="contacts-text04">Социальные сети</h3>
             </div>
             <div className="contacts-media">
+            <a
+                href="https://telegram.im/@p_miita"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="contacts-link"
+              >
+                <div className="contacts-whatsapp">
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    className="contacts-icon2"
+                  >
+                    <path d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z"></path>
+                  </svg>
+                  <span className="contacts-text05">
+                    <span>+375 (44) 702-28-30</span>
+                    <br></br>
+                  </span>
+                </div>
+              </a>
               <a
                 href="https://telegram.im/@p_miita"
                 target="_blank"
@@ -61,13 +83,13 @@ const Contacts = (props) => {
                     <path d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"></path>
                   </svg>
                   <span className="contacts-text05">
-                    <span>+375 (44) 587-13-36</span>
+                    <span>+375 (44) 702-28-30</span>
                     <br></br>
                   </span>
                 </div>
               </a>
               <a
-                href="viber://chat?number=%2B375445871336"
+                href="viber://chat?number=%2B375447022830"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link1"
@@ -79,13 +101,13 @@ const Contacts = (props) => {
                     className="contacts-image"
                   />
                   <span className="contacts-text08">
-                    <span>+375 (44) 587-13-36</span>
+                    <span>+375 (44) 702-28-30</span>
                     <br></br>
                   </span>
                 </div>
               </a>
               <a
-                href="viber://chat?number=%2B375447022830"
+                href="viber://chat?number=%2B375445871336"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link2"
@@ -96,7 +118,7 @@ const Contacts = (props) => {
                     src="/Icons/viber-200h.png"
                     className="contacts-image1"
                   />
-                  <span className="contacts-text11">+375 (44) 702-28-30</span>
+                  <span className="contacts-text11">+375 (44) 587-13-36</span>
                 </div>
               </a>
             </div>
@@ -130,10 +152,10 @@ const Contacts = (props) => {
             </div>
             <div className="contacts-warehouseadress">
               <span className="contacts-text14">
-                Г.п Радошкович, ул. Серебрянка 43А
+              Минский район, Щомыслицкий с/с, район аг. Озерцо
               </span>
               <span className="contacts-text15">
-                Минский район, Щомыслицкий с/с, район аг. Озерцо
+              +375 (29) 587-13-36 / +375 (44) 702-28-30
               </span>
             </div>
           </div>
@@ -223,10 +245,26 @@ const Contacts = (props) => {
             padding: var(--dl-space-space-unit);
             font-size: 23px;
             transition: 0.3s;
-            margin-bottom: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .contacts-firstnumber:hover {
+            transform: translateY(-10px);
+            border-color: var(--dl-color-gray-2);
+            border-width: 1px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .contacts-firstnumber_2 {
+            color: var(--dl-color-gray-2);
+            padding: var(--dl-space-space-unit);
+            font-size: 23px;
+            transition: 0.3s;
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .contacts-firstnumber_2:hover {
             transform: translateY(-10px);
             border-color: var(--dl-color-gray-2);
             border-width: 1px;
@@ -296,6 +334,32 @@ const Contacts = (props) => {
           .contacts-link {
             display: contents;
           }
+          .contacts-whatsapp {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            transition: 0.3s;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .contacts-whatsapp:hover {
+            transform: translateY(-10px);
+            border-color: var(--dl-color-gray-2);
+            border-width: 1px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
+          .contacts-icon2 {
+            fill: var(--dl-color-gray-2);
+            width: 30px;
+            height: 30px;
+            transition: 0.3s;
+            margin-right: var(--dl-space-space-unit);
+          }
           .contacts-telegram {
             flex: 0 0 auto;
             width: auto;
@@ -322,7 +386,6 @@ const Contacts = (props) => {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
           }
-
           .contacts-text05 {
             color: var(--dl-color-gray-2);
             font-size: 23px;
@@ -532,6 +595,9 @@ const Contacts = (props) => {
             .contacts-firstnumber {
               font-size: 18px;
             }
+            .contacts-firstnumber_2 {
+              font-size: 18px;
+            }
             .contacts-name {
               font-size: 18px;
             }
@@ -540,6 +606,10 @@ const Contacts = (props) => {
             }
             .contacts-text04 {
               font-size: 23px;
+            }
+            .contacts-icon2 {
+              width: 20px;
+              height: 20px;
             }
             .contacts-telegramicon {
               width: 20px;
@@ -611,6 +681,9 @@ const Contacts = (props) => {
             .contacts-firstnumber {
               font-size: 15px;
             }
+            .contacts-firstnumber_2 {
+              font-size: 15px;
+            }
             .contacts-name {
               font-size: 15px;
             }
@@ -624,6 +697,10 @@ const Contacts = (props) => {
             .contacts-text04 {
               font-size: 17px;
               align-self: flex-end;
+            }
+            .contacts-icon2 {
+              width: 23px;
+              height: 23px;
             }
             .contacts-telegramicon {
               width: 23px;
@@ -700,6 +777,9 @@ const Contacts = (props) => {
               font-size: 20px;
             }
             .contacts-firstnumber {
+              font-size: 20px;
+            }
+            .contacts-firstnumber_2 {
               font-size: 20px;
             }
             .contacts-name {
@@ -801,6 +881,9 @@ const Contacts = (props) => {
               font-size: 18px;
             }
             .contacts-firstnumber {
+              font-size: 18px;
+            }
+            .contacts-firstnumber_2 {
               font-size: 18px;
             }
             .contacts-name {
