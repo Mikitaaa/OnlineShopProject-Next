@@ -247,6 +247,15 @@ const Header1 = (props) => {
             .header1-nav1 {
               width: 100%;
             }
+            .header1-logo1 {
+              width: 50px;
+              height: auto;
+            }
+            .header1-text {
+              color: var(--dl-color-gray-2);
+              padding: var(--dl-space-space-halfunit);
+              font-size: 15px;
+            }
             .header1-text1 {
               color: var(--dl-color-gray-2);
               font-size: 25px;
