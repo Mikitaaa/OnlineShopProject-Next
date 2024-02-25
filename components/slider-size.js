@@ -112,11 +112,13 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             background-size: cover;
             justify-content: center;
             background-image: url(${activeButton === props.button ? imagePaths[0].first : imagePaths[0].second});
+            background-size: ${activeButton === props.button ? 'cover' : '97%'};
           }
           .slider-size-slider-slide1 {
             display: flex;
             background-size: cover;
             background-image: url(${activeButton === props.button ? imagePaths[1].first : imagePaths[1].second});
+            background-size: ${activeButton === props.button ? 'cover' : '97%'};
           }
           .slider-size-slider-slide2 {
             display: flex;
@@ -128,6 +130,7 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             display: flex;
             background-size: cover;
             background-image: url(${activeButton === props.button ? imagePaths[3].first : imagePaths[3].second});
+            background-size: ${activeButton === props.button ? 'cover' : '97%'};
           }
           .slider-size-slider-pagination {
             display: block;
