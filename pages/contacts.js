@@ -51,7 +51,7 @@ const Contacts = (props) => {
             </div>
             <div className="contacts-media">
             <a
-                href="https://telegram.im/@p_miita"
+                href="https://api.whatsapp.com/send/?phone=375447022830"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link"
@@ -70,7 +70,7 @@ const Contacts = (props) => {
                 </div>
               </a>
               <a
-                href="https://telegram.im/@p_miita"
+                href="https://telegram.im/@Den1vag"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="contacts-link"

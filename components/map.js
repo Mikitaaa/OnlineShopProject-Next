@@ -13,10 +13,9 @@ function Map() {
     function init(){ 
       var myMap = new window.ymaps.Map("map", {
           center: [53.848480856519636,27.40076749999997], // координаты места, которое вы выбрали
-          zoom: 10
+          zoom: 12
       });
 
-      // Создаем вторую метку с новыми координатами
       var myPlacemark2 = new window.ymaps.Placemark([53.848480856519636,27.40076749999997], {}, {
           preset: 'islands#redIcon' // стиль метки
       });
