@@ -38,11 +38,11 @@ const Futer = (props) => {
           </div>
           <div className="futer-contacts1">
             <div className="futer-firstcontact">
-              <a href="tel:+375 (44) 702-28-30" className="futer-firstphonenum">
-              +375 (44) 702-28-30
+              <a href="tel:+375 (44) 587-13-36" className="futer-firstphonenum">
+              +375 (29) 587-13-36
               </a>
               <a
-                href="viber://chat?number=%2B375447022830"
+                href="viber://chat?number=%2B375445871336"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="futer-link"
@@ -89,12 +89,12 @@ const Futer = (props) => {
               </a>
             </div>
             <div className="futer-secondcontact">
-            <a href="tel:+375 (44) 587-13-36" className="futer-secphonenum">
-              +375 (29) 587-13-36
+            <a href="tel:+375 (44) 702-28-30" className="futer-secphonenum">
+              +375 (44) 702-28-30
             </a>
               <div className="futer-contacticns">
                 <a
-                  href="viber://chat?number=%2B375445871336"
+                  href="viber://chat?number=%2B375447022830"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="futer-link1"
@@ -140,7 +140,7 @@ const Futer = (props) => {
                   </svg>
                 </a>
                 <a
-                  href="https://telegram.im/@p_miita"
+                  href="https://telegram.im/@Den1vag"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="futer-link2"

@@ -52,20 +52,20 @@ const handleButtonChange = (value) => {
         <div className="product3-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product3-compound">
-            <h2 className="product3-head-compound">Состав:</h2>
+            <span className="product3-head-compound">Состав:</span>
             <span className="product3-compound1">
               <span>- торф верховой фракции 0-5 мм</span>
               <br></br>
               <span>- рН 2,8-4,0</span>
             </span>
-            <h3 className="product3-price">{price}</h3>
+            <span className="product3-price">{price}</span>
             <Link href="/feedback">
               <a className="product3-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product3-discription">
-          <h4 className="product3-text04">Описание:</h4>
+          <span className="product3-text04">Описание:</span>
           <span className="product3-text05">
             <span>
               Кислый торф «Traven» – натуральное удобрение, которое улучшает
@@ -143,7 +143,9 @@ const handleButtonChange = (value) => {
           }
           .product3-head-compound {
             color: var(--dl-color-gray-2);
+            font-size: 32px;
             align-self: flex-start;
+            font-weight: bold;
           }
           .product3-compound1 {
             color: var(--dl-color-gray-2);
@@ -155,11 +157,12 @@ const handleButtonChange = (value) => {
             color: rgb(208, 2, 2);
             font-size: 32px;
             margin-top: var(--dl-space-space-twounits);
+            font-weight: bold;
             border-color: rgb(208, 2, 2);
-            border-width: 3px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
+            border-bottom-width: 3px;
           }
           .product3-link {
             color: var(--dl-color-gray-2);
@@ -184,15 +187,18 @@ const handleButtonChange = (value) => {
             cursor: default;
             height: auto;
             display: flex;
-            padding: var(--dl-space-space-twounits);
             align-self: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .product3-text04 {
             color: var(--dl-color-gray-2);
-            padding-top: 0px;
+            font-size: 33px;
+            font-weight: bold;
             padding-left: var(--dl-space-space-twounits);
-            padding-right: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
           .product3-text05 {
@@ -221,6 +227,7 @@ const handleButtonChange = (value) => {
           @media (max-width: 767px) {
             .product3-discription {
               width: 100%;
+              padding-left: var(--dl-space-space-twounits);
             }
             .product3-text04 {
               padding-left: 0px;

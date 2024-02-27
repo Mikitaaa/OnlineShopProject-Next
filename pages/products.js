@@ -31,10 +31,10 @@ const Products = (props) => {
                       className="products-product1"
                     />
                     <div className="products-product-description">
-                      <h2 className="products-text01">
+                      <span className="products-text01">
                         Субстрат торфяной «Traven» для голубики рН 2,8-4,0
                         100л/250л
-                      </h2>
+                      </span>
                       <div className="products-product-button">
                         <span className="products-text02">Подробнее</span>
                         <svg

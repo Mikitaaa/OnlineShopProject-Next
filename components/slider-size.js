@@ -69,7 +69,7 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
           ></div>
         </div>
         <div className="slider-size-size">
-          <h1 className="slider-size-text">{props.heading}</h1>
+          <span className="slider-size-text">{props.text}</span>
           <button 
             type="button"
             className={`slider-size-button button ${activeButton === props.button ? 'active' : ''}`} 
@@ -149,6 +149,7 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             color: var(--dl-color-gray-2);
             cursor: default;
             font-size: 25px;
+            font-weight: bold;
           }
           .slider-size-button {
             color: var(--dl-color-gray-2);
@@ -237,7 +238,7 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             .slider-size-slider-slide3 {
               background-position: center;
             }
-          }
+          
         `}
       </style>
     </>
@@ -247,13 +248,13 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
 SliderSize.defaultProps = {
   button1: '250л',
   button: '100л',
-  heading: 'Размер:',
+  text: 'Размер:',
 }
 
 SliderSize.propTypes = {
   button1: PropTypes.string,
   button: PropTypes.string,
-  heading: PropTypes.string,
+  text: PropTypes.string,
   onChange: PropTypes.func.isRequired,
 }
 

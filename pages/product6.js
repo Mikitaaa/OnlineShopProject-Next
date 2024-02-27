@@ -52,7 +52,7 @@ const handleButtonChange = (value) => {
         <div className="product6-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product6-compound">
-            <h2 className="product6-head-compound">Состав:</h2>
+            <span className="product6-head-compound">Состав:</span>
             <span className="product6-compound1">
               <span>- Торф верховой фракция 5-20 мм (средне крупный)</span>
               <br></br>
@@ -92,14 +92,14 @@ const handleButtonChange = (value) => {
                 />
               </span>
             </span>
-            <h3 className="product6-price">{price}</h3>
+            <span className="product6-price">{price}</span>
             <Link href="/feedback">
               <a className="product6-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product6-discription">
-          <h4 className="product6-text22">Описание:</h4>
+          <span className="product6-text22">Описание:</span>
           <span className="product6-text23">
             <span>
               Питательный торфяной субстрат «Traven» высокие грядки – это
@@ -173,7 +173,9 @@ const handleButtonChange = (value) => {
           }
           .product6-head-compound {
             color: var(--dl-color-gray-2);
+            font-size: 32px;
             align-self: flex-start;
+            font-weight: bold;
           }
           .product6-compound1 {
             color: var(--dl-color-gray-2);
@@ -185,11 +187,12 @@ const handleButtonChange = (value) => {
             color: rgb(208, 2, 2);
             font-size: 32px;
             margin-top: var(--dl-space-space-twounits);
+            font-weight: bold;
             border-color: rgb(208, 2, 2);
-            border-width: 3px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
+            border-bottom-width: 3px;
           }
           .product6-link {
             color: var(--dl-color-gray-2);
@@ -214,15 +217,18 @@ const handleButtonChange = (value) => {
             cursor: default;
             height: auto;
             display: flex;
-            padding: var(--dl-space-space-twounits);
             align-self: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .product6-text22 {
             color: var(--dl-color-gray-2);
-            padding-top: 0px;
+            font-size: 33px;
+            font-weight: bold;
             padding-left: var(--dl-space-space-twounits);
-            padding-right: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
           .product6-text23 {
@@ -251,6 +257,7 @@ const handleButtonChange = (value) => {
           @media (max-width: 767px) {
             .product6-discription {
               width: 100%;
+              padding-left: var(--dl-space-space-twounits);
             }
             .product6-text22 {
               padding-left: 0px;

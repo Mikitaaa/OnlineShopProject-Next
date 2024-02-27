@@ -52,7 +52,7 @@ const Product1 = (props) => {
         <div className="product1-main-info">
           <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product1-compound">
-            <h2 className="product1-head-compound">Состав:</h2>
+            <span className="product1-head-compound">Состав:</span>
             <span className="product1-compound1">
               <span>- Торф верховой фракции 0-5 мм</span>
               <br></br>
@@ -77,14 +77,14 @@ const Product1 = (props) => {
               <span>- Агроперлит  </span>
               <span>рН 2,8-4,0</span>
             </span>
-            <h3 className="product1-price">{price}</h3>
+            <span className="product1-price">{price}</span>
             <Link href="/feedback">
               <a className="product1-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product1-discription">
-          <h4 className="product1-text20">Описание:</h4>
+          <span className="product1-text20">Описание:</span>
           <span className="product1-text21">
             <span>
               Торфяной субстрат для голубики изготовляется на основе торфа
@@ -166,7 +166,9 @@ const Product1 = (props) => {
           }
           .product1-head-compound {
             color: var(--dl-color-gray-2);
+            font-size: 32px;
             align-self: flex-start;
+            font-weight: bold;
           }
           .product1-compound1 {
             color: var(--dl-color-gray-2);
@@ -178,11 +180,12 @@ const Product1 = (props) => {
             color: rgb(208, 2, 2);
             font-size: 32px;
             margin-top: var(--dl-space-space-twounits);
+            font-weight: bold;
             border-color: rgb(208, 2, 2);
-            border-width: 3px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
+            border-bottom-width: 3px;
           }
           .product1-link {
             color: var(--dl-color-gray-2);
@@ -207,15 +210,18 @@ const Product1 = (props) => {
             cursor: default;
             height: auto;
             display: flex;
-            padding: var(--dl-space-space-twounits);
             align-self: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .product1-text20 {
             color: var(--dl-color-gray-2);
-            padding-top: 0px;
+            font-size: 33px;
+            font-weight: bold;
             padding-left: var(--dl-space-space-twounits);
-            padding-right: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
           .product1-text21 {
@@ -244,6 +250,7 @@ const Product1 = (props) => {
           @media (max-width: 767px) {
             .product1-discription {
               width: 100%;
+              padding-left: var(--dl-space-space-twounits);
             }
             .product1-text20 {
               padding-left: 0px;

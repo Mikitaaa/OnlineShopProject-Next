@@ -52,7 +52,7 @@ const handleButtonChange = (value) => {
         <div className="product5-main-info">
         <SliderSize onChange={handleButtonChange} imagePaths = {pairs}></SliderSize>
           <div className="product5-compound">
-            <h2 className="product5-head-compound">Состав:</h2>
+            <span className="product5-head-compound">Состав:</span>
             <span className="product5-compound1">
               <span>- Торф верховой фракция 5-10 мм 70% (средне крупный)</span>
               <br></br>
@@ -94,14 +94,14 @@ const handleButtonChange = (value) => {
                 />
               </span>
             </span>
-            <h3 className="product5-price">{price}</h3>
+            <span className="product5-price">{price}</span>
             <Link href="/feedback">
               <a className="product5-link button">Оформить заказ</a>
             </Link>
           </div>
         </div>
         <div className="product5-discription">
-          <h4 className="product5-text22">Описание:</h4>
+          <span className="product5-text22">Описание:</span>
           <span className="product5-text23">
             <span>
               Компост «Traven» - питательный торфяной субстрат на основе
@@ -176,7 +176,9 @@ const handleButtonChange = (value) => {
           }
           .product5-head-compound {
             color: var(--dl-color-gray-2);
+            font-size: 32px;
             align-self: flex-start;
+            font-weight: bold;
           }
           .product5-compound1 {
             color: var(--dl-color-gray-2);
@@ -188,11 +190,12 @@ const handleButtonChange = (value) => {
             color: rgb(208, 2, 2);
             font-size: 32px;
             margin-top: var(--dl-space-space-twounits);
+            font-weight: bold;
             border-color: rgb(208, 2, 2);
-            border-width: 3px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
+            border-bottom-width: 3px;
           }
           .product5-link {
             color: var(--dl-color-gray-2);
@@ -217,15 +220,18 @@ const handleButtonChange = (value) => {
             cursor: default;
             height: auto;
             display: flex;
-            padding: var(--dl-space-space-twounits);
             align-self: flex-start;
+            padding-top: var(--dl-space-space-twounits);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .product5-text22 {
             color: var(--dl-color-gray-2);
-            padding-top: 0px;
+            font-size: 33px;
+            font-weight: bold;
             padding-left: var(--dl-space-space-twounits);
-            padding-right: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
           .product5-text23 {
@@ -254,6 +260,7 @@ const handleButtonChange = (value) => {
           @media (max-width: 767px) {
             .product5-discription {
               width: 100%;
+              padding-left: var(--dl-space-space-twounits);
             }
             .product5-text22 {
               padding-left: 0px;

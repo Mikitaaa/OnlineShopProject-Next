@@ -34,21 +34,23 @@ const Home = (props) => {
                 data-thq="slider-slide"
                 className="home-slider-slide swiper-slide"
               >
-                <div className="home-text">Природные решения для вашего сада</div>
+                <span className="home-text">
+                  Природные решения для вашего сада
+                </span>
               </div>
               <div
                 data-thq="slider-slide"
                 className="home-slider-slide1 swiper-slide"
               >
-                <div className="home-text01">Торф для любых растений</div>
+                <span className="home-text01">Торф для любых растений</span>
               </div>
               <div
                 data-thq="slider-slide"
                 className="home-slider-slide2 swiper-slide"
               >
-                <div className="home-text02">
+                <span className="home-text02">
                   Урожайность без ущерба для кошелька!
-                </div>
+                </span>
               </div>
             </div>
             <div
@@ -286,6 +288,7 @@ const Home = (props) => {
             width: 70%;
             cursor: default;
             font-size: 350%;
+            font-weight: bold;
             margin-left: var(--dl-space-space-fourunits);
           }
           .home-slider-slide1 {
@@ -304,6 +307,7 @@ const Home = (props) => {
             width: 60%;
             cursor: default;
             font-size: 350%;
+            font-weight: bold;
             margin-left: var(--dl-space-space-fourunits);
           }
           .home-slider-slide2 {
@@ -322,6 +326,7 @@ const Home = (props) => {
             width: 75%;
             cursor: default;
             font-size: 350%;
+            font-weight: bold;
             margin-left: var(--dl-space-space-fourunits);
           }
           .home-slider-pagination {
@@ -1181,7 +1186,6 @@ const Home = (props) => {
               margin-left: var(--dl-space-space-threeunits);
             }
             .home-text02 {
-              color: rgb(255, 255, 255);
               font-size: 200%;
               margin-left: var(--dl-space-space-threeunits);
             }
