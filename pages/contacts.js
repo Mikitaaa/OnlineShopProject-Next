@@ -154,8 +154,11 @@ const Contacts = (props) => {
               <span className="contacts-text14">
               Минский район, Щомыслицкий с/с, район аг. Озерцо
               </span>
-              <span className="contacts-text15">
+              <span className="contacts-text14">
               +375 (29) 587-13-36 / +375 (44) 702-28-30
+              </span>
+              <span className="contacts-text15">
+              УНП: 690734114
               </span>
             </div>
           </div>
@@ -516,6 +519,7 @@ const Contacts = (props) => {
             width: 50%;
             display: flex;
             padding: var(--dl-space-space-oneandhalfunits);
+            padding-top: 0px;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -563,8 +567,8 @@ const Contacts = (props) => {
             font-size: 23px;
           }
           .contacts-mapconteiner {
-            width: 100%;
-            height: 250px;
+            width: 50%;
+            height: 280px;
             object-fit: cover;
           }
           .contacts-image2 {
@@ -857,6 +861,7 @@ const Contacts = (props) => {
             }
             .contacts-mapconteiner {
               align-self: center;
+              width: 100%;
             }
           }
           @media (max-width: 479px) {
