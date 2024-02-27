@@ -108,29 +108,31 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
           }
           .slider-size-slider-slide {
             display: flex;
-            align-items: center;
             background-size: cover;
-            justify-content: center;
             background-image: url(${activeButton === props.button ? imagePaths[0].first : imagePaths[0].second});
             background-size: ${activeButton === props.button ? 'cover' : '97%'};
+            background-repeat: repeat;
+            background-position: center;
           }
           .slider-size-slider-slide1 {
             display: flex;
             background-size: cover;
             background-image: url(${activeButton === props.button ? imagePaths[1].first : imagePaths[1].second});
             background-size: ${activeButton === props.button ? 'cover' : '97%'};
+            background-position: center;
           }
           .slider-size-slider-slide2 {
             display: flex;
             background-size: cover;
             background-image: url(${activeButton === props.button ? imagePaths[2].first : imagePaths[2].second});
+            background-position: center;
           }
           .slider-size-slider-slide3 {
-            width: 100%;
             display: flex;
             background-size: cover;
             background-image: url(${activeButton === props.button ? imagePaths[3].first : imagePaths[3].second});
             background-size: ${activeButton === props.button ? 'cover' : '97%'};
+            background-position: center;
           }
           .slider-size-slider-pagination {
             display: block;
@@ -184,6 +186,9 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             }
           }
           @media (max-width: 991px) {
+            .slider-size-slider-size {
+              padding-left: var(--dl-space-space-twounits);
+            }
             .slider-size-slider-slide1 {
               background-position: center;
             }
@@ -238,7 +243,10 @@ const SliderSize = ({ imagePaths, onChange, ...props }) => {
             .slider-size-slider-slide3 {
               background-position: center;
             }
-          
+            .slider-size-size {
+              padding-left: var(--dl-space-space-unit);
+            }
+          }
         `}
       </style>
     </>
