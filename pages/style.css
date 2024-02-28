@@ -85,6 +85,15 @@
 .teleport-show {
   display: flex !important;
 }
+.hover_1 {
+  transition: 0.3s;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+.hover_1:hover {
+  transform: translateY(-10px);
+  border-bottom-color: var(--dl-color-gray-2);
+}
 .Content {
   font-size: 16px;
   font-family: "Fira Sans";

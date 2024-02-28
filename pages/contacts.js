@@ -31,14 +31,15 @@ const Contacts = (props) => {
               <h2 className="contacts-text03">Мобильная связь</h2>
             </div>
             <span className="contacts-n-ame">Владимир Владимирович</span>
-            <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber">
+            <a 
+            href="tel:+375 (44) 587-13-36" className="contacts-firstnumber hover_1">
               +375 (29) 587-13-36
             </a>
-            <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber_2">
+            <a href="tel:+375 (44) 587-13-36" className="contacts-firstnumber_2 hover_1">
               +375 (29) 619-43-22
             </a>
             <span className="contacts-name">Денис Валерьевич</span>
-            <a href="tel:+375 (44) 702-28-30" className="contacts-secondnumber">
+            <a href="tel:+375 (44) 702-28-30" className="contacts-secondnumber hover_1">
               +375 (44) 702-28-30
             </a>
           </div>
@@ -56,7 +57,7 @@ const Contacts = (props) => {
                 rel="noreferrer noopener"
                 className="contacts-link"
               >
-                <div className="contacts-whatsapp">
+                <div className="contacts-whatsapp hover_1">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="contacts-icon2"
@@ -73,16 +74,16 @@ const Contacts = (props) => {
                 href="https://telegram.im/@Den1vag"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="contacts-link"
+                className="contacts-link1"
               >
-                <div className="contacts-telegram">
+                <div className="contacts-telegram hover_1">
                   <svg
                     viewBox="0 0 1024 1024"
                     className="contacts-telegramicon"
                   >
                     <path d="M679.429 746.857l84-396c7.429-34.857-12.571-48.571-35.429-40l-493.714 190.286c-33.714 13.143-33.143 32-5.714 40.571l126.286 39.429 293.143-184.571c13.714-9.143 26.286-4 16 5.143l-237.143 214.286-9.143 130.286c13.143 0 18.857-5.714 25.714-12.571l61.714-59.429 128 94.286c23.429 13.143 40 6.286 46.286-21.714zM1024 512c0 282.857-229.143 512-512 512s-512-229.143-512-512 229.143-512 512-512 512 229.143 512 512z"></path>
                   </svg>
-                  <span className="contacts-text05">
+                  <span className="contacts-text08">
                     <span>+375 (44) 702-28-30</span>
                     <br></br>
                   </span>
@@ -92,15 +93,15 @@ const Contacts = (props) => {
                 href="viber://chat?number=%2B375447022830"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="contacts-link1"
+                className="contacts-link2"
               >
-                <div className="contacts-viberfirst">
+                <div className="contacts-viberfirst hover_1">
                   <img
                     alt="image"
                     src="/Icons/viber-200h.png"
                     className="contacts-image"
                   />
-                  <span className="contacts-text08">
+                  <span className="contacts-text11">
                     <span>+375 (44) 702-28-30</span>
                     <br></br>
                   </span>
@@ -110,55 +111,75 @@ const Contacts = (props) => {
                 href="viber://chat?number=%2B375445871336"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="contacts-link2"
+                className="contacts-link3"
               >
-                <div className="contacts-vibersec">
+                <div className="contacts-vibersec hover_1">
                   <img
                     alt="image"
                     src="/Icons/viber-200h.png"
                     className="contacts-image1"
                   />
-                  <span className="contacts-text11">+375 (44) 587-13-36</span>
+                  <span className="contacts-text14">+375 (44) 587-13-36</span>
                 </div>
               </a>
             </div>
           </div>
+          <div className="contacts-requisitescontaner">
+            <div className="contacts-requisits">
+              <svg viewBox="0 0 1024 1024" className="contacts-icon5">
+                <path d="M810 298v-84h-426v84h426zM640 640v-86h-256v86h256zM810 470v-86h-426v86h426zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h512zM170 256v598h598v84h-598q-34 0-59-25t-25-59v-598h84z"></path>
+              </svg>
+              <h1 className="contacts-text15">Реквизиты</h1>
+            </div>
+            <div className="contacts-requisitestext">
+              <span className="contacts-text16">
+                <span>ИП: Микутель Денис Валерьевич</span>
+                <br></br>
+                <span>УНП: 690734113</span>
+                <br></br>
+                <br></br>
+                <span>
+                  Юридический адрес: Беларусь, Минская обл., г. Солигорск, ул.
+                  Октябрьская, дом 31, оф. 76
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="contacts-secondinfo">
           <div className="contacts-mailcontaner">
             <div className="contacts-mail">
               <svg viewBox="0 0 1024 1024" className="contacts-mailicon">
                 <path d="M512 470l342-214h-684zM854 768v-426l-342 212-342-212v426h684zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
               </svg>
-              <h4 className="contacts-text12">Электронная почта</h4>
+              <h4 className="contacts-text23">Электронная почта</h4>
             </div>
             <div className="contacts-mailtext">
               <a
                 href="mailto:infogroundshop@gmail.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="contacts-link3"
+                className="contacts-link4 hover_1"
               >
                 infogroundshop@gmail.com
               </a>
             </div>
           </div>
         </div>
-        <div className="contacts-secondinfo">
+        <div className="contacts-thirdinfo">
           <div className="contacts-warehouse">
             <div className="contacts-address">
               <svg viewBox="0 0 1024 1024" className="contacts-addressicon">
                 <path d="M938.667 426.667c0-117.803-47.787-224.555-124.971-301.696s-183.893-124.971-301.696-124.971-224.555 47.787-301.696 124.971-124.971 183.893-124.971 301.696c0 24.277 2.261 48.128 6.4 71.509 11.691 66.048 38.357 128.171 71.765 184.32 116.565 195.883 324.821 334.336 324.821 334.336 14.123 9.259 32.64 9.771 47.317 0 0 0 208.299-138.453 324.821-334.336 33.408-56.149 60.075-118.272 71.765-184.32 4.181-23.381 6.443-47.232 6.443-71.509zM853.333 426.667c0 18.944-1.749 37.845-5.077 56.661-9.429 53.333-31.445 105.728-61.099 155.563-83.285 139.947-220.416 249.643-275.157 290.091-54.784-40.448-191.872-150.144-275.157-290.091-29.653-49.835-51.669-102.229-61.099-155.563-3.328-18.816-5.077-37.717-5.077-56.661 0-94.251 38.144-179.541 99.968-241.365s147.115-99.968 241.365-99.968 179.541 38.144 241.365 99.968 99.968 147.115 99.968 241.365zM682.667 426.667c0-47.104-19.157-89.856-50.005-120.661s-73.557-50.005-120.661-50.005-89.856 19.157-120.661 50.005-50.005 73.557-50.005 120.661 19.157 89.856 50.005 120.661 73.557 50.005 120.661 50.005 89.856-19.157 120.661-50.005 50.005-73.557 50.005-120.661zM597.333 426.667c0 23.595-9.515 44.843-25.003 60.331s-36.736 25.003-60.331 25.003-44.843-9.515-60.331-25.003-25.003-36.736-25.003-60.331 9.515-44.843 25.003-60.331 36.736-25.003 60.331-25.003 44.843 9.515 60.331 25.003 25.003 36.736 25.003 60.331z"></path>
               </svg>
-              <h5 className="contacts-text13">Склады</h5>
+              <h5 className="contacts-text24">Склады</h5>
             </div>
             <div className="contacts-warehouseadress">
-              <span className="contacts-text14">
+              <span className="contacts-text25">
               Минский район, Щомыслицкий с/с, район аг. Озерцо
               </span>
-              <span className="contacts-text14">
+              <span className="contacts-text26">
               +375 (29) 587-13-36 / +375 (44) 702-28-30
-              </span>
-              <span className="contacts-text15">
-              УНП: 690734114
               </span>
             </div>
           </div>
@@ -200,6 +221,7 @@ const Contacts = (props) => {
           .contacts-firstinfo {
             flex: 0 0 auto;
             width: 100%;
+            cursor: default;
             height: auto;
             display: flex;
             padding: var(--dl-space-space-twounits);
@@ -209,7 +231,6 @@ const Contacts = (props) => {
           .contacts-mobilephone {
             flex: 0 0 auto;
             width: auto;
-            cursor: default;
             height: auto;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -247,18 +268,9 @@ const Contacts = (props) => {
             color: var(--dl-color-gray-2);
             padding: var(--dl-space-space-unit);
             font-size: 23px;
-            transition: 0.3s;
             margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
           }
-          .contacts-firstnumber:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
+          
           .contacts-firstnumber_2 {
             color: var(--dl-color-gray-2);
             padding: var(--dl-space-space-unit);
@@ -266,14 +278,6 @@ const Contacts = (props) => {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-          }
-          .contacts-firstnumber_2:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .contacts-name {
             color: var(--dl-color-gray-2);
@@ -285,16 +289,6 @@ const Contacts = (props) => {
             color: var(--dl-color-gray-2);
             padding: var(--dl-space-space-unit);
             font-size: 23px;
-            transition: 0.3s;
-            text-decoration: none;
-          }
-          .contacts-secondnumber:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .contacts-socialmedia {
             flex: 0 0 auto;
@@ -310,7 +304,6 @@ const Contacts = (props) => {
             height: auto;
             display: flex;
             padding: var(--dl-space-space-unit);
-            margin-top: 0%;
             align-items: center;
             margin-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
@@ -323,7 +316,6 @@ const Contacts = (props) => {
           }
           .contacts-text04 {
             color: var(--dl-color-gray-2);
-            cursor: default;
             font-size: 30px;
           }
           .contacts-media {
@@ -343,46 +335,10 @@ const Contacts = (props) => {
             height: auto;
             display: flex;
             padding: var(--dl-space-space-unit);
-            transition: 0.3s;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .contacts-whatsapp:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .contacts-icon2 {
-            fill: var(--dl-color-gray-2);
-            width: 30px;
-            height: 30px;
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-          }
-          .contacts-telegram {
-            flex: 0 0 auto;
-            width: auto;
-            height: auto;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            transition: 0.3s;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .contacts-telegram:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .contacts-telegramicon {
             fill: var(--dl-color-gray-2);
             width: 30px;
             height: 30px;
@@ -396,29 +352,20 @@ const Contacts = (props) => {
           .contacts-link1 {
             display: contents;
           }
-          .contacts-viberfirst {
+          .contacts-telegram {
             flex: 0 0 auto;
             width: auto;
             height: auto;
             display: flex;
             padding: var(--dl-space-space-unit);
-            transition: 0.3s;
             align-items: center;
             margin-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
           }
-          .contacts-viberfirst:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .contacts-image {
+          .contacts-telegramicon {
+            fill: var(--dl-color-gray-2);
             width: 30px;
             height: 30px;
-            object-fit: cover;
+            transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
           }
           .contacts-text08 {
@@ -428,25 +375,16 @@ const Contacts = (props) => {
           .contacts-link2 {
             display: contents;
           }
-          .contacts-vibersec {
+          .contacts-viberfirst {
             flex: 0 0 auto;
             width: auto;
+            height: auto;
             display: flex;
             padding: var(--dl-space-space-unit);
-            transform: (0px);
-            transition: 0.3s;
             align-items: center;
-            text-decoration: none;
+            margin-bottom: var(--dl-space-space-halfunit);
           }
-          .contacts-vibersec:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .contacts-image1 {
+          .contacts-image {
             width: 30px;
             height: 30px;
             object-fit: cover;
@@ -455,6 +393,79 @@ const Contacts = (props) => {
           .contacts-text11 {
             color: var(--dl-color-gray-2);
             font-size: 23px;
+          }
+          .contacts-link3 {
+            display: contents;
+          }
+          .contacts-vibersec {
+            flex: 0 0 auto;
+            width: auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+          }
+          .contacts-image1 {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            margin-right: var(--dl-space-space-unit);
+          }
+          .contacts-text14 {
+            color: var(--dl-color-gray-2);
+            font-size: 23px;
+          }
+          .contacts-requisitescontaner {
+            flex: 0 0 auto;
+            width: 33%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .contacts-requisits {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            margin-bottom: var(--dl-space-space-unit);
+            justify-content: flex-start;
+          }
+          .contacts-icon5 {
+            fill: var(--dl-color-gray-2);
+            width: 50px;
+            height: 50px;
+            margin-right: var(--dl-space-space-unit);
+          }
+          .contacts-text15 {
+            color: var(--dl-color-gray-2);
+            font-size: 30px;
+          }
+          .contacts-requisitestext {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+          }
+          .contacts-text16 {
+            color: var(--dl-color-gray-2);
+            width: 100%;
+            padding: var(--dl-space-space-unit);
+            font-size: 23px;
+          }
+          .contacts-secondinfo {
+            flex: 0 0 auto;
+            width: 100%;
+            cursor: default;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
           }
           .contacts-mailcontaner {
             flex: 0 0 auto;
@@ -480,9 +491,8 @@ const Contacts = (props) => {
             height: 50px;
             margin-right: var(--dl-space-space-unit);
           }
-          .contacts-text12 {
+          .contacts-text23 {
             color: var(--dl-color-gray-2);
-            cursor: default;
             font-size: 30px;
           }
           .contacts-mailtext {
@@ -492,22 +502,12 @@ const Contacts = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .contacts-link3 {
+          .contacts-link4 {
             color: var(--dl-color-gray-2);
             padding: var(--dl-space-space-unit);
             font-size: 23px;
-            transition: 0.3s;
-            text-decoration: none;
           }
-          .contacts-link3:hover {
-            transform: translateY(-10px);
-            border-color: var(--dl-color-gray-2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .contacts-secondinfo {
+          .contacts-thirdinfo {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -517,10 +517,11 @@ const Contacts = (props) => {
           .contacts-warehouse {
             flex: 0 0 auto;
             width: 50%;
+            cursor: default;
             display: flex;
             padding: var(--dl-space-space-oneandhalfunits);
-            padding-top: 0px;
             align-items: flex-start;
+            padding-top: 0px;
             flex-direction: column;
           }
           .contacts-address {
@@ -539,28 +540,26 @@ const Contacts = (props) => {
             height: 50px;
             margin-right: var(--dl-space-space-unit);
           }
-          .contacts-text13 {
+          .contacts-text24 {
             color: var(--dl-color-gray-2);
-            cursor: default;
             font-size: 31px;
           }
           .contacts-warehouseadress {
             flex: 0 0 auto;
             width: auto;
-            cursor: default;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .contacts-text14 {
+          .contacts-text25 {
             color: var(--dl-color-gray-2);
             width: auto;
             padding: var(--dl-space-space-halfunit);
             font-size: 23px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .contacts-text15 {
+          .contacts-text26 {
             color: var(--dl-color-gray-2);
             width: auto;
             padding: var(--dl-space-space-halfunit);
@@ -615,49 +614,58 @@ const Contacts = (props) => {
               width: 20px;
               height: 20px;
             }
-            .contacts-telegramicon {
-              width: 20px;
-              height: 20px;
-            }
             .contacts-text05 {
               font-size: 18px;
             }
-            .contacts-image {
+            .contacts-telegramicon {
               width: 20px;
               height: 20px;
             }
             .contacts-text08 {
               font-size: 18px;
             }
-            .contacts-image1 {
+            .contacts-image {
               width: 20px;
               height: 20px;
             }
             .contacts-text11 {
               font-size: 18px;
             }
-            .contacts-mailicon {
-              width: 45px;
-            }
-            .contacts-text12 {
-              font-size: 23px;
-            }
-            .contacts-link3 {
-              font-size: 18px;
-            }
-            .contacts-secondinfo {
-              padding: var(--dl-space-space-unit);
-            }
-            .contacts-addressicon {
-              width: 45px;
-            }
-            .contacts-text13 {
-              font-size: 24px;
+            .contacts-image1 {
+              width: 20px;
+              height: 20px;
             }
             .contacts-text14 {
               font-size: 18px;
             }
             .contacts-text15 {
+              font-size: 23px;
+            }
+            .contacts-text16 {
+              font-size: 18px;
+            }
+            .contacts-mailicon {
+              width: 45px;
+            }
+            .contacts-text23 {
+              font-size: 23px;
+            }
+            .contacts-link4 {
+              font-size: 18px;
+            }
+            .contacts-thirdinfo {
+              padding: var(--dl-space-space-unit);
+            }
+            .contacts-addressicon {
+              width: 45px;
+            }
+            .contacts-text24 {
+              font-size: 24px;
+            }
+            .contacts-text25 {
+              font-size: 18px;
+            }
+            .contacts-text26 {
               font-size: 18px;
             }
           }
@@ -667,6 +675,9 @@ const Contacts = (props) => {
             }
             .contacts-text {
               font-size: 45px;
+            }
+            .contacts-mobilephone {
+              width: 33%;
             }
             .contacts-contentsmobile {
               align-items: flex-start;
@@ -706,42 +717,61 @@ const Contacts = (props) => {
               width: 23px;
               height: 23px;
             }
-            .contacts-telegramicon {
-              width: 23px;
-              height: 23px;
-            }
             .contacts-text05 {
               font-size: 15px;
             }
-            .contacts-image {
+            .contacts-telegramicon {
               width: 23px;
               height: 23px;
             }
             .contacts-text08 {
               font-size: 15px;
             }
-            .contacts-image1 {
+            .contacts-image {
               width: 23px;
               height: 23px;
             }
             .contacts-text11 {
               font-size: 15px;
             }
-            .contacts-mailcontaner {
-              padding-top: var(--dl-space-space-unit);
+            .contacts-image1 {
+              width: 23px;
+              height: 23px;
+            }
+            .contacts-text14 {
+              font-size: 15px;
+            }
+            .contacts-requisitescontaner {
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: 0px;
+            }
+            .contacts-icon5 {
+              width: 25px;
+              height: 25px;
+            }
+            .contacts-text15 {
+              font-size: 17px;
+              align-self: flex-end;
+            }
+            .contacts-text16 {
+              font-size: 15px;
+            }
+            .contacts-secondinfo {
+              padding-top: var(--dl-space-space-halfunit);
+            }
+            .contacts-mailcontaner {
+              padding: 0px;
             }
             .contacts-mailicon {
               width: 25px;
               height: 25px;
             }
-            .contacts-text12 {
+            .contacts-text23 {
               font-size: 17px;
               align-self: flex-end;
             }
-            .contacts-link3 {
+            .contacts-link4 {
               padding: var(--dl-space-space-unit);
               font-size: 15px;
             }
@@ -749,13 +779,13 @@ const Contacts = (props) => {
               width: 25px;
               height: 25px;
             }
-            .contacts-text13 {
+            .contacts-text24 {
               font-size: 18px;
             }
-            .contacts-text14 {
+            .contacts-text25 {
               font-size: 15px;
             }
-            .contacts-text15 {
+            .contacts-text26 {
               font-size: 15px;
             }
           }
@@ -770,6 +800,9 @@ const Contacts = (props) => {
             }
             .contacts-firstinfo {
               flex-direction: column;
+            }
+            .contacts-mobilephone {
+              width: auto;
             }
             .contacts-phoneicon {
               width: 35px;
@@ -799,49 +832,71 @@ const Contacts = (props) => {
             .contacts-text04 {
               font-size: 30px;
             }
-            .contacts-telegramicon {
+            .contacts-icon2 {
               width: 20px;
               height: 20px;
             }
             .contacts-text05 {
               font-size: 20px;
             }
-            .contacts-image {
+            .contacts-telegramicon {
               width: 20px;
               height: 20px;
             }
             .contacts-text08 {
               font-size: 20px;
             }
-            .contacts-image1 {
+            .contacts-image {
               width: 20px;
               height: 20px;
             }
             .contacts-text11 {
               font-size: 20px;
             }
-            .contacts-mail {
+            .contacts-image1 {
+              width: 20px;
+              height: 20px;
+            }
+            .contacts-text14 {
+              font-size: 20px;
+            }
+            .contacts-requisitescontaner {
+              width: auto;
+              padding-left: var(--dl-space-space-unit);
+            }
+            .contacts-icon5 {
+              width: 35px;
+              height: 35px;
+            }
+            .contacts-text15 {
+              font-size: 30px;
+            }
+            .contacts-text16 {
+              font-size: 20px;
+            }
+            .contacts-secondinfo {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
+            .contacts-mailcontaner {
               padding-left: var(--dl-space-space-unit);
             }
             .contacts-mailicon {
               width: 45px;
               height: 45px;
             }
-            .contacts-text12 {
+            .contacts-text23 {
               font-size: 30px;
             }
-            .contacts-link3 {
+            .contacts-link4 {
               font-size: 20px;
             }
-            .contacts-secondinfo {
+            .contacts-thirdinfo {
               flex-direction: column;
             }
             .contacts-warehouse {
               width: 100%;
-              padding-top: var(--dl-space-space-oneandhalfunits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
+              padding-left: var(--dl-space-space-oneandhalfunits);
             }
             .contacts-address {
               padding-left: 0px;
@@ -850,18 +905,18 @@ const Contacts = (props) => {
               width: 45px;
               height: 45px;
             }
-            .contacts-text13 {
+            .contacts-text24 {
               font-size: 30px;
             }
-            .contacts-text14 {
+            .contacts-text25 {
               font-size: 20px;
             }
-            .contacts-text15 {
+            .contacts-text26 {
               font-size: 20px;
             }
             .contacts-mapconteiner {
-              align-self: center;
               width: 100%;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
@@ -913,6 +968,26 @@ const Contacts = (props) => {
             .contacts-text11 {
               font-size: 18px;
             }
+            .contacts-text14 {
+              font-size: 18px;
+            }
+            .contacts-requisits {
+              margin: var(--dl-space-space-unit);
+              padding-left: 0px;
+            }
+            .contacts-icon5 {
+              width: 40px;
+              height: 40px;
+            }
+            .contacts-text15 {
+              font-size: 25px;
+            }
+            .contacts-text16 {
+              font-size: 18px;
+            }
+            .contacts-secondinfo {
+              flex-direction: column;
+            }
             .contacts-mailcontaner {
               padding: var(--dl-space-space-unit);
             }
@@ -924,20 +999,18 @@ const Contacts = (props) => {
               width: 45px;
               height: 45px;
             }
-            .contacts-text12 {
+            .contacts-text23 {
               font-size: 25px;
             }
-            .contacts-link3 {
+            .contacts-link4 {
               font-size: 18px;
             }
-            .contacts-secondinfo {
+            .contacts-thirdinfo {
               flex-direction: column;
             }
             .contacts-warehouse {
               padding-top: var(--dl-space-space-unit);
-              padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .contacts-address {
               padding-left: var(--dl-space-space-unit);
@@ -946,13 +1019,13 @@ const Contacts = (props) => {
               width: 40px;
               height: 40px;
             }
-            .contacts-text13 {
+            .contacts-text24 {
               font-size: 25px;
             }
-            .contacts-text14 {
+            .contacts-text25 {
               font-size: 18px;
             }
-            .contacts-text15 {
+            .contacts-text26 {
               font-size: 18px;
             }
           }
