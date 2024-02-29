@@ -94,6 +94,15 @@
   transform: translateY(-10px);
   border-bottom-color: var(--dl-color-gray-2);
 }
+.hover_products {
+  transition: 0.3s;
+  text-decoration: none;
+  transform: translateY(0);
+}
+.hover_products:hover {
+  transform: translateY(-20px);
+  transition: transform 0.3s ease-in-out;
+}
 .Content {
   font-size: 16px;
   font-family: "Fira Sans";

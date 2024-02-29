@@ -112,7 +112,7 @@ const Home = (props) => {
           <div className="home-products-conteiner">
             <div className="home-container01">
             <Link href="/product1">
-              <div className="home-container02">
+              <div className="home-container02 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_1/traven-dlya-golubiki-1-2-1.jpg"
@@ -127,7 +127,7 @@ const Home = (props) => {
               </div>
               </Link>
               <Link href="/product2">
-              <div className="home-container03">
+              <div className="home-container03 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_2/traven-universalnyij-1-2-1.jpg"
@@ -142,7 +142,7 @@ const Home = (props) => {
               </div>
               </Link>
               <Link href="/product3">
-              <div className="home-container04">
+              <div className="home-container04 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg"
@@ -159,7 +159,7 @@ const Home = (props) => {
             </div>
             <div className="home-container05">
             <Link href="/product4">
-              <div className="home-container06">
+              <div className="home-container06 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_4/traven-nejtralizovannyij-1-1.jpg"
@@ -174,7 +174,7 @@ const Home = (props) => {
               </div>
               </Link>
               <Link href="/product5">
-              <div className="home-container07">
+              <div className="home-container07 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_5/traven-kompost-11.jpg"
@@ -189,7 +189,7 @@ const Home = (props) => {
               </div>
               </Link>
               <Link href="/product6">
-              <div className="home-container08">
+              <div className="home-container08 hover_products">
                 <img
                   alt="image"
                   src="/Products/Products_100/Product_6/traven-gryadki-11.jpg"
@@ -426,10 +426,6 @@ const Home = (props) => {
             background-color: #ffffff;
             cursor: pointer;
           }
-          .home-container02:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
-          }
           .home-product1 {
             width: 100%;
             height: 100%;
@@ -478,10 +474,6 @@ const Home = (props) => {
             background-color: #ffffff;
             cursor: pointer;
           }
-          .home-container03:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
-          }
           .home-product2 {
             width: 100%;
             height: 100%;
@@ -528,10 +520,6 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
             cursor: pointer;
-          }
-          .home-container04:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
           }
           .home-product3 {
             width: 100%;
@@ -586,10 +574,6 @@ const Home = (props) => {
             background-color: #ffffff;
             cursor: pointer;
           }
-          .home-container06:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
-          }
           .home-product4 {
             width: 100%;
             height: 100%;
@@ -638,10 +622,6 @@ const Home = (props) => {
             background-color: #ffffff;
             cursor: pointer;
           }
-          .home-container07:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
-          }
           .home-product5 {
             width: 100%;
             height: 100%;
@@ -687,10 +667,6 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
             cursor: pointer;
-          }
-          .home-container08:hover {
-            transform: translateY(-20px);
-            transition: transform 0.25s ease-in-out;
           }
           .home-product6 {
             width: 100%;

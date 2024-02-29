@@ -24,7 +24,7 @@ const Products = (props) => {
             <div className="products-products-first-pair">
               <Link href="/product1">
                 <a className="products-link">
-                  <div className="products-first-product">
+                  <div className="products-first-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_1/traven-dlya-golubiki-1-2-1.jpg"
@@ -50,7 +50,7 @@ const Products = (props) => {
               </Link>
               <Link href="/product2">
                 <a className="products-link1">
-                  <div className="products-second-product">
+                  <div className="products-second-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_2/traven-universalnyij-1-2-1.jpg"
@@ -78,7 +78,7 @@ const Products = (props) => {
             <div className="products-procucts-second-pair">
               <Link href="/product3">
                 <a className="products-link2">
-                  <div className="products-thirt-product">
+                  <div className="products-thirt-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_3/traven-kislyij-1-2-1.jpg"
@@ -103,7 +103,7 @@ const Products = (props) => {
               </Link>
               <Link href="/product4">
                 <a className="products-link3">
-                  <div className="products-fourth-product">
+                  <div className="products-fourth-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_4/traven-nejtralizovannyij-1-1.jpg"
@@ -131,7 +131,7 @@ const Products = (props) => {
             <div className="products-products-thirt-pair">
               <Link href="/product5">
                 <a className="products-link4">
-                  <div className="products-fifth-product">
+                  <div className="products-fifth-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_5/traven-kompost-11.jpg"
@@ -156,7 +156,7 @@ const Products = (props) => {
               </Link>
               <Link href="/product6">
                 <a className="products-link5">
-                  <div className="products-sixth-product">
+                  <div className="products-sixth-product hover_products">
                     <img
                       alt="image"
                       src="/Products/Products_100/Product_6/traven-gryadki-11.jpg"
@@ -286,18 +286,11 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             margin-right: var(--dl-space-space-fiveunits);
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-first-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product1 {
             width: 50%;
@@ -358,17 +351,10 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-second-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product11 {
             width: 50%;
@@ -435,18 +421,11 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             margin-right: var(--dl-space-space-fiveunits);
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-thirt-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product12 {
             width: 50%;
@@ -507,17 +486,10 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-fourth-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product13 {
             width: 50%;
@@ -587,18 +559,11 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             margin-right: var(--dl-space-space-fiveunits);
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-fifth-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product14 {
             width: 50%;
@@ -659,17 +624,10 @@ const Products = (props) => {
             width: 45%;
             height: 100%;
             display: flex;
-            transform: translateY(0);
-            transition: 0.3s;
             align-items: center;
             border-radius: 35px;
             justify-content: center;
-            text-decoration: none;
             background-color: #ffffff;
-          }
-          .products-sixth-product:hover {
-            transform: translateY(-20px);
-            transition: transform 0.3s ease-in-out;
           }
           .products-product15 {
             width: 50%;
