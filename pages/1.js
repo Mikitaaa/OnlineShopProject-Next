@@ -8,6 +8,7 @@ import Futer from '../components/futer'
 const Delivery = (props) => {
   return (
     <>
+    <html lang="ru"></html>
       <div className="delivery-container">
         <Head>
           <title>Доставка торфа</title>

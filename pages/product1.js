@@ -36,6 +36,7 @@ const Product1 = (props) => {
 
   return (
     <>
+    <html lang="ru"></html>
       <div className="product1-container">
         <Head>
           <title>Торф для голубики купить Минск</title>

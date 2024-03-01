@@ -36,6 +36,7 @@ const handleButtonChange = (value) => {
 
   return (
     <>
+    <html lang="ru"></html>
       <div className="product6-container">
         <Head>
           <title>Торфяной субстрат Высокие грядки купить Минск</title>

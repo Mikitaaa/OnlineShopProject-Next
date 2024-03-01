@@ -10,6 +10,7 @@ import HomeOrderForm from '../components/HomeOrderForm'
 const Home = (props) => {
   return (
     <>
+    <html lang="ru"></html>
       <div className="home-container">
         <Head>
           <title>Купить торф в Минске</title>

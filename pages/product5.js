@@ -36,6 +36,7 @@ const handleButtonChange = (value) => {
 
   return (
     <>
+    <html lang="ru"></html>
       <div className="product5-container">
         <Head>
           <title>Компост торфяной купить Минск</title>

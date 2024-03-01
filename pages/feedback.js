@@ -9,6 +9,7 @@ import FeedbackOrderForm from '../components/FeedbackOrderForm'
 const Feedback = (props) => {
   return (
     <>
+    <html lang="ru"></html>
       <div className="feedback-container">
         <Head>
           <title>Обратная связь магазина GroundShop в Минске</title>

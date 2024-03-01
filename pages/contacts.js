@@ -8,6 +8,7 @@ import Map from '../components/map'
 const Contacts = (props) => {
   return (
     <>
+    <html lang="ru"></html>
       <div className="contacts-container">
         <Head>
           <title>Контакты магазина GroundShop в Минске</title>

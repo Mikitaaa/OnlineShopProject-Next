@@ -36,6 +36,7 @@ const handleButtonChange = (value) => {
 
   return (
     <>
+    <html lang="ru"></html>
       <div className="product3-container">
         <Head>
           <title>Торф кислый купить Минск</title>

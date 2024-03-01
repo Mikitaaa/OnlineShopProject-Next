@@ -8,6 +8,7 @@ import Futer from '../components/futer'
 const Products = (props) => {
   return (
     <>
+    <html lang="ru"></html>
       <div className="products-container">
         <Head>
           <title>Продукция магазина GroundShop</title>
