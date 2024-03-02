@@ -14,6 +14,7 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>Купить торф в Минске</title>
+<meta name="google-site-verification" content="dEhCuk_EagGBytVDpwzYcpkOibjXg00bMdAuRSd-j6Y" />
           <meta name="description" content='Купить торф оптом и в розницу в мешках по 100 и 250 литров. Купить торф в Минске. Оформить доставку торфа по всей Беларуси.'></meta>
           <meta property="og:title" content="ground shop" />
           <meta name="keywords" content=''></meta>
