@@ -14,10 +14,14 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>Купить торф в Минске</title>
-<meta name="google-site-verification" content="dEhCuk_EagGBytVDpwzYcpkOibjXg00bMdAuRSd-j6Y" />
+	  <meta name="google-site-verification" content="dEhCuk_EagGBytVDpwzYcpkOibjXg00bMdAuRSd-j6Y" />
           <meta name="description" content='Купить торф оптом и в розницу в мешках по 100 и 250 литров. Купить торф в Минске. Оформить доставку торфа по всей Беларуси.'></meta>
           <meta property="og:title" content="ground shop" />
           <meta name="keywords" content=''></meta>
+<link rel="apple-touch-icon" sizes="180x180" href="/Icons/favicon_io/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/Icons/favicon_io/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/Icons/favicon_io/favicon-16x16.png"/>
+<link rel="manifest" href="/Icons/favicon_io/site.webmanifest"/>
         </Head>
         <Header1
           imageSrc="/Icons/logo-1500h.png"
