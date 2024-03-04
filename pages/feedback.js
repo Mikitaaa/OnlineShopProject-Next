@@ -170,13 +170,19 @@ const Feedback = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .feedback-text {
+              font-size: 30px;
+            }
+            .feedback-text01 {
+              font-size: 20px;
+            }
             .feedback-image {
-              width: 40%;
+              width: 35%;
               padding: 0px;
               margin-left: 0px;
             }
             .feedback-people {
-              width: 40%;
+              width: 35%;
               padding: 0px;
               margin-right: 0px;
             }

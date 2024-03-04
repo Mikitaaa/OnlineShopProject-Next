@@ -470,6 +470,36 @@ class FeedbackOrderForm extends React.Component {
               width: 40%;
               font-size: 20px;
             }
+            .feedback-icon {
+              width: 22px;
+              height: 22px;
+            }
+            .feedback-icon2 {
+              width: 22px;
+              height: 22px;
+            }
+            .feedback-icon4 {
+              width: 22px;
+              height: 22px;
+            }
+            .feedback-privaty-policy-text {
+              font-size: 17px;
+            }
+            .feedback-textinput {
+              width: 79%;
+            }
+            .feedback-textinput1 {
+              width: 79%;
+            }
+            .feedback-text6 {
+              font-size: 17px;
+            }
+            .feedback-text7 {
+              font-size: 17px;
+            }
+            .feedback-text8 {
+              font-size: 17px;
+            }
           }
         `}
       </style>
