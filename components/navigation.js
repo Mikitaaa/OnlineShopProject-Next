@@ -94,107 +94,10 @@ const Navigation = (props) => {
           .navigation-link4:hover {
             color: #9f705a;
           }
-
           .navigation-root-class-name8 {
             flex: 3;
             margin: var(--dl-space-space-unit);
             align-self: center;
-          }
-
-          .navigation-root-class-name10 {
-            flex: 3;
-            width: var(--dl-size-size-small);
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: var(--dl-space-space-unit);
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .navigation-root-class-name11 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .navigation-root-class-name12 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name15 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name17 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name19 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name21 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .navigation-root-class-name22 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name24 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-
-          .navigation-root-class-name26 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .navigation-root-class-name27 {
-            flex: 3;
-            align-self: center;
-            margin-top: var(--dl-space-space-unit);
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
           }
           @media (max-width: 1200px) {
             .navigation-link {
@@ -218,40 +121,6 @@ const Navigation = (props) => {
               margin-left: var(--dl-space-space-twounits);
             }
             .navigation-root-class-name8 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name10 {
-              flex: 0 0 auto;
-              margin-right: var(--dl-space-space-halfunit);
-            }
-            .navigation-root-class-name11 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name12 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name15 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name17 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name19 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name21 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name22 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name24 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name26 {
-              flex: 0 0 auto;
-            }
-            .navigation-root-class-name27 {
               flex: 0 0 auto;
             }
           }

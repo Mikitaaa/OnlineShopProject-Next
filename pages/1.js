@@ -84,7 +84,7 @@ const Delivery = (props) => {
             />
           </div>
         </div>
-        <Futer rootClassName="futer-root-class-name6"></Futer>
+        <Futer rootClassName="futer-root-class-name"></Futer>
       </div>
       <style jsx>
         {`

@@ -385,75 +385,6 @@ const Futer = (props) => {
             text-align: right;
             line-height: 1.5;
           }
-          .futer-root-class-name {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name1 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name2 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name3 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name4 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name5 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-
-          .futer-root-class-name9 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name10 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name11 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-
-          .futer-root-class-name15 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-          .futer-root-class-name16 {
-            flex: 1;
-            width: 100%;
-            height: auto;
-            margin-top: 0px;
-          }
-
           @media (max-width: 1200px) {
             .futer-text {
               font-size: 20;
@@ -497,39 +428,6 @@ const Futer = (props) => {
             }
             .futer-deliv {
               font-size: 18px;
-            }
-            .futer-root-class-name {
-              margin-top: 0px;
-            }
-            .futer-root-class-name1 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name2 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name3 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name4 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name5 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name9 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name10 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name11 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name15 {
-              margin-top: 0px;
-            }
-            .futer-root-class-name16 {
-              margin-top: 0px;
             }
           }
           @media (max-width: 991px) {
@@ -586,39 +484,6 @@ const Futer = (props) => {
             }
             .futer-deliv {
               font-size: 16px;
-            }
-            .futer-root-class-name {
-              margin: 0px;
-            }
-            .futer-root-class-name1 {
-              margin: 0px;
-            }
-            .futer-root-class-name2 {
-              margin: 0px;
-            }
-            .futer-root-class-name3 {
-              margin: 0px;
-            }
-            .futer-root-class-name4 {
-              margin: 0px;
-            }
-            .futer-root-class-name5 {
-              margin: 0px;
-            }
-            .futer-root-class-name9 {
-              margin: 0px;
-            }
-            .futer-root-class-name10 {
-              margin: 0px;
-            }
-            .futer-root-class-name11 {
-              margin: 0px;
-            }
-            .futer-root-class-name15 {
-              margin: 0px;
-            }
-            .futer-root-class-name16 {
-              margin: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -708,31 +573,7 @@ const Futer = (props) => {
               text-align: left;
               padding-right: var(--dl-space-space-halfunit);
             }
-            .futer-root-class-name6 {
-              width: 100%;
-              height: auto;
-              position: 0px;
-              align-self: flex-end;
-            }
-            .futer-root-class-name7 {
-              width: 100%;
-              height: auto;
-              position: 0px;
-              align-self: flex-end;
-            }
-            .futer-root-class-name12 {
-              width: 100%;
-              height: auto;
-              position: 0px;
-              align-self: flex-end;
-            }
-            .futer-root-class-name13 {
-              width: 100%;
-              height: auto;
-              position: 0px;
-              align-self: flex-end;
-            }
-            .futer-root-class-name14 {
+            .futer-root-class-name {
               width: 100%;
               height: auto;
               position: 0px;
@@ -751,74 +592,7 @@ const Futer = (props) => {
               padding-bottom: 0px;
             }
             .futer-root-class-name {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name1 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name2 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name3 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name4 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name5 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name6 {
               align-self: flex-end;
-            }
-            .futer-root-class-name7 {
-              align-self: flex-end;
-            }
-            .futer-root-class-name9 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name10 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name11 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name12 {
-              align-self: flex-end;
-            }
-            .futer-root-class-name13 {
-              align-self: flex-end;
-            }
-            .futer-root-class-name14 {
-              align-self: flex-end;
-            }
-            .futer-root-class-name15 {
-              flex: 1;
-              width: 100%;
-              height: auto;
-            }
-            .futer-root-class-name16 {
-              flex: 1;
-              width: 100%;
-              height: auto;
             }
           }
         `}
