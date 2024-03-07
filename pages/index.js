@@ -370,6 +370,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
+	    align-self: flex-start;
           }
           .home-secondgreenad {
             flex: 0 0 auto;
@@ -379,6 +380,7 @@ const Home = (props) => {
             align-items: flex-start;
             margin-left: 0%;
             justify-content: center;
+	    align-self: flex-start;
           }
           .home-product {
             width: 100%;
